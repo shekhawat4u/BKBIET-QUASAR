@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "/about-us", "dest": "/index.html" },
+    { "src": "/archives", "dest": "/index.html" },
+    { "src": "/team", "dest": "/index.html" },
+    { "src": "/sports", "dest": "/index.html" },
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

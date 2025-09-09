@@ -12,6 +12,7 @@ import IntroVideo from "./components/IntroVideo.jsx";
 import AboutUs from "./pages/about-us.jsx";
 import Archives from "./pages/archives.jsx";
 import OurTeam from "./pages/team.jsx";
+import Sports from "./pages/sports.jsx";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -55,6 +56,7 @@ const App = () => {
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/archives" element={<Archives />} />
             <Route path="/team" element={<OurTeam />} />
+            <Route path="/sports" element={<Sports />} />
           </Routes>
         </>
       )}
