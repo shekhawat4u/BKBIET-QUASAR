@@ -74,7 +74,7 @@ const Navbar = () => {
 
         {/* Mobile menu button */}
         <button 
-          className="md:hidden flex flex-col justify-center items-center gap-1.5 z-20 absolute right-5 top-7"
+          className="md:hidden flex flex-col justify-center items-center gap-1.5 z-50 fixed right-5 top-7"
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
@@ -107,7 +107,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         <div 
-          className={`fixed inset-0 bg-black/95 backdrop-blur-lg z-10 flex flex-col justify-center items-center transition-transform duration-300 md:hidden ${
+          className={`fixed inset-0 bg-black/95 backdrop-blur-lg z-40 flex flex-col justify-center items-center transition-transform duration-300 md:hidden ${
             isMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
