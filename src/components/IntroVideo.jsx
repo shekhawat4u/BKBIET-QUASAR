@@ -1,8 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const IntroVideo = ({ onVideoEnd }) => {
   const [isVisible, setIsVisible] = useState(true);
   const [videoLoaded, setVideoLoaded] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef(null);
 
   useEffect(() => {
     // Check if user has already seen the intro video in this session
@@ -32,13 +34,26 @@ const IntroVideo = ({ onVideoEnd }) => {
     setVideoLoaded(true);
   };
 
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play().catch(error => {
+          console.error("Error playing video:", error);
+        });
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
   if (!isVisible) return null;
 
   return (
     <div className="fixed inset-0 bg-black z-50 flex items-center justify-center">
       <video
+        ref={videoRef}
         className="w-full h-full object-cover"
-        autoPlay
         onEnded={handleVideoEnd}
         onLoadedData={handleVideoLoaded}
         playsInline
@@ -46,6 +61,18 @@ const IntroVideo = ({ onVideoEnd }) => {
         <source src="/videos/intro.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      
+      {/* Play button - visible until play is initiated */}
+      {!isPlaying && videoLoaded && (
+        <button 
+          onClick={togglePlay}
+          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#e7d393] text-black rounded-full p-5 hover:bg-[#d4a853] transition-all duration-300"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+          </svg>
+        </button>
+      )}
       
       {/* Skip button */}
       <button 
