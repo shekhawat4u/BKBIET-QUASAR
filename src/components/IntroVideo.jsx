@@ -39,7 +39,6 @@ const IntroVideo = ({ onVideoEnd }) => {
       <video
         className="w-full h-full object-cover"
         autoPlay
-        muted
         onEnded={handleVideoEnd}
         onLoadedData={handleVideoLoaded}
         playsInline
