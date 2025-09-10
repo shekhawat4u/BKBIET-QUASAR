@@ -1,5 +1,15 @@
 import { useState, useEffect, useRef } from "react";
 
+// Custom CSS for text animation
+const textAnimationStyle = {
+  animation: "textGlow 2s infinite alternate",
+};
+
+// Custom CSS for button animation
+const buttonAnimationStyle = {
+  animation: "buttonPulse 1.5s infinite alternate",
+};
+
 const IntroVideo = ({ onVideoEnd }) => {
   const [isVisible, setIsVisible] = useState(true);
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -16,12 +26,7 @@ const IntroVideo = ({ onVideoEnd }) => {
       if (onVideoEnd) onVideoEnd();
     }
     
-    // Show intro text for 3 seconds before allowing video play
-    const textTimer = setTimeout(() => {
-      setShowIntroText(false);
-    }, 3000);
-    
-    return () => clearTimeout(textTimer);
+    // No automatic timeout for intro text - let user click "Continue" when ready
   }, [onVideoEnd]);
 
   const handleVideoEnd = () => {
@@ -56,15 +61,38 @@ const IntroVideo = ({ onVideoEnd }) => {
 
   return (
     <div className="fixed inset-0 bg-black z-50 flex items-center justify-center">
+      {/* Add CSS for animations */}
+      <style jsx>{`
+        @keyframes textGlow {
+          0% { text-shadow: 0 0 10px rgba(231, 211, 147, 0.7), 0 0 20px rgba(231, 211, 147, 0.5), 0 0 30px rgba(231, 211, 147, 0.3); }
+          100% { text-shadow: 0 0 15px rgba(231, 211, 147, 0.9), 0 0 30px rgba(231, 211, 147, 0.7), 0 0 40px rgba(231, 211, 147, 0.5); }
+        }
+        @keyframes buttonPulse {
+          0% { box-shadow: 0 0 5px rgba(231, 211, 147, 0.5); }
+          100% { box-shadow: 0 0 15px rgba(231, 211, 147, 0.8), 0 0 20px rgba(231, 211, 147, 0.5); }
+        }
+        @keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+        }
+        .intro-text-container {
+          animation: fadeIn 1.5s ease-in;
+        }
+      `}</style>
+
       {/* Intro Text Overlay */}
       {showIntroText && (
-        <div className="absolute inset-0 bg-black z-10 flex flex-col items-center justify-center">
-          <h1 className="text-[#e7d393] font-modern-negra text-4xl md:text-6xl text-center mb-10">
+        <div className="absolute inset-0 bg-black z-10 flex flex-col items-center justify-center intro-text-container">
+          <h1 
+            className="text-[#e7d393] font-modern-negra text-4xl md:text-6xl lg:text-7xl text-center mb-10"
+            style={textAnimationStyle}
+          >
             Enter The Game of Ice and Fire
           </h1>
           <button 
             onClick={() => setShowIntroText(false)} 
-            className="mt-8 px-6 py-2 bg-transparent border border-[#e7d393] text-[#e7d393] font-bold rounded hover:bg-[#e7d393] hover:text-black transition-all duration-300"
+            className="mt-12 px-8 py-3 bg-transparent border-2 border-[#e7d393] text-[#e7d393] font-bold rounded-lg hover:bg-[#e7d393] hover:text-black transition-all duration-300 text-lg"
+            style={buttonAnimationStyle}
           >
             Continue
           </button>

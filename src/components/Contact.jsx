@@ -66,11 +66,12 @@ const Contact = () => {
         </div>
         <div>
           <h3>Venue</h3>
-          <p>BKBIET, Pilani, Rajasthan 333031</p>
+          <p>BKBIET, Pilani, Rajasthan, 333031</p>
         </div>
         <div>
           <h3>Contact</h3>
-          <p>+91 00000 00000</p>
+          <p>+91 6350142804</p>
+          <p>+91 9950050535</p>
           <p>quasar@bkbiet.ac.in</p>
         </div>
         <div>

@@ -1,13 +1,12 @@
 import { useEffect } from "react";
 
 const OurTeam = () => {
-  // Team data organized by categories with photos and social media handles
   const teamData = {
     Convenors: [
       {
         name: "Nitin",
         role: "Convenor",
-        photo: "/images/profile1.png",
+        photo: "/images/nitin.jpeg",
         social: {
           instagram: "https://instagram.com/nitinconvenor",
           linkedin: "https://linkedin.com/in/nitinconvenor",
@@ -16,7 +15,7 @@ const OurTeam = () => {
       },
       {
         name: "Yashashvi Jangid",
-        role: "Convenor",
+        role: "Co - Convenor",
         photo: "/images/yashashvi.jpg",
         social: {
           instagram: "https://www.instagram.com/yashashvie",
@@ -24,65 +23,7 @@ const OurTeam = () => {
         },
       },
     ],
-
-    "Sports Coordinators": [
-      {
-        name: "Nitin",
-        role: "Sports Coordinator",
-        photo: "/images/profile4.png",
-        social: {
-          instagram: "https://instagram.com/nitin",
-          linkedin: "https://linkedin.com/in/nitin",
-          github: "https://github.com/nitin",
-        },
-      },
-      {
-        name: "Tanmay",
-        role: "Sports Coordinator",
-        photo: "/images/tanmay.jpg",
-        social: {
-          instagram: "https://www.instagram.com/tan__y20",
-        },
-      },
-      {
-        name: "Rohit Godara",
-        role: "Sports Coordinator",
-        photo: "/images/rohit.jpg",
-        social: {
-          instagram: "https://www.instagram.com/rohitgodara345",
-          linkedin: "https://www.linkedin.com/in/rohit-godara-050a96381",
-        },
-      },
-      {
-        name: "Aman Singh",
-        role: "Sports Coordinator",
-        photo: "/images/aman.jpg",
-        social: {
-          instagram: "https://www.instagram.com/amandeg1",
-          linkedin: "https://www.linkedin.com/in/aman-deg",
-        },
-      },
-      {
-        name: "Yash Jangid",
-        role: "Sports Coordinator",
-        photo: "/images/profile3.png",
-        social: {
-          instagram: "https://instagram.com/yashjangid",
-          linkedin: "https://linkedin.com/in/yashjangid",
-          github: "https://github.com/yashjangid",
-        },
-      },
-      {
-        name: "Amit Maan",
-        role: "Sports Coordinator",
-        photo: "/images/amit.jpg",
-        social: {
-          instagram: "https://www.instagram.com/maan_amit_007",
-          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
-        },
-      },
-    ],
-    "Web Designer & Developer": [
+    "Web Designer & Developers": [
       {
         name: "Divya Raghav",
         role: "Web Designer & Developer",
@@ -103,11 +44,133 @@ const OurTeam = () => {
         },
       },
     ],
+
+    "Sports Coordinators": [
+      {
+        name: "Nitin",
+        role: "Sports Officer",
+        photo: "/images/nitin2.jpeg",
+        social: {
+          instagram: "https://instagram.com/nitin",
+          linkedin: "https://linkedin.com/in/nitin",
+          github: "https://github.com/nitin",
+        },
+      },
+      {
+        name: "Tanmay",
+        role: "Sports Officer",
+        photo: "/images/tanmay.jpg",
+        social: {
+          instagram: "https://www.instagram.com/tan__y20",
+        },
+      },
+      {
+        name: "Rohit Godara",
+        role: "Kabaddi Coordinator",
+        photo: "/images/rohit.jpg",
+        social: {
+          instagram: "https://www.instagram.com/rohitgodara345",
+          linkedin: "https://www.linkedin.com/in/rohit-godara-050a96381",
+        },
+      },
+      {
+        name: "Shivam Sharma",
+        role: "Kabaddi Coordinator",
+        photo: "/images/shivam.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/rohitgodara345",
+          linkedin: "https://www.linkedin.com/in/rohit-godara-050a96381",
+        },
+      },
+      {
+        name: "Aman Singh",
+        role: "E-Sports Coordinator",
+        photo: "/images/aman.jpg",
+        social: {
+          instagram: "https://www.instagram.com/amandeg1",
+          linkedin: "https://www.linkedin.com/in/aman-deg",
+        },
+      },
+      {
+        name: "Parveen Yadav",
+        role: "E-Sports Coordinator",
+        photo: "/images/parveen.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/amandeg1",
+          linkedin: "https://www.linkedin.com/in/aman-deg",
+        },
+      },
+      {
+        name: "Yash Jangid",
+        role: "Volleyball Coordinator",
+        photo: "/images/yash.jpeg",
+        social: {
+          instagram: "https://instagram.com/yashjangid",
+          linkedin: "https://linkedin.com/in/yashjangid",
+          github: "https://github.com/yashjangid",
+        },
+      },
+      {
+        name: "Amit Maan",
+        role: "Volleyball Coordinator",
+        photo: "/images/amit.jpg",
+        social: {
+          instagram: "https://www.instagram.com/maan_amit_007",
+          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+        },
+      },
+      {
+        name: "Harshvardhan Saini",
+        role: "Football Coordinator",
+        photo: "/images/harsh.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/maan_amit_007",
+          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+        },
+      },
+      {
+        name: "Aditya Bhomia",
+        role: "Cricket Coordinator",
+        photo: "/images/aditya.jpeg",
+        social: {
+          instagram: "https://instagram.com/yashjangid",
+          linkedin: "https://linkedin.com/in/yashjangid",
+          github: "https://github.com/yashjangid",
+        },
+      },
+      {
+        name: "Abhishek Saini",
+        role: "Cricket Coordinator",
+        photo: "/images/abhishek.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/maan_amit_007",
+          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+        },
+      },
+      {
+        name: "Puran",
+        role: "Basketball Coordinator",
+        photo: "/images/puran.jpg",
+        social: {
+          instagram: "https://www.instagram.com/maan_amit_007",
+          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+        },
+      },
+      {
+        name: "Himanshu",
+        role: "Badminton Coordinator",
+        photo: "/images/himanshu.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/maan_amit_007",
+          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+        },
+      },
+    ],
     "PCr Team": [
       {
         name: "Urvashi",
         role: "PCr Team Member",
-        photo: "/images/profile1.png",
+        photo: "/images/urvashi.jpeg",
         social: {
           instagram: "https://instagram.com/urvashi",
           linkedin: "https://linkedin.com/in/urvashi",
@@ -117,7 +180,7 @@ const OurTeam = () => {
       {
         name: "Chetna Bhardwaj",
         role: "PCr Team Member",
-        photo: "/images/profile2.png",
+        photo: "/images/chetna.jpeg",
         social: {
           instagram: "https://instagram.com/chetnabhardwaj",
           linkedin: "https://linkedin.com/in/chetnabhardwaj",
@@ -149,14 +212,15 @@ const OurTeam = () => {
         photo: "/images/nishant.jpg",
         social: {
           instagram: "https://www.instagram.com/ms_nishant7781",
-          linkedin: "https://www.linkedin.com/in/nishant-kumar-bainara-bb91a32aa",
+          linkedin:
+            "https://www.linkedin.com/in/nishant-kumar-bainara-bb91a32aa",
           github: "https://github.com/NKB7781",
         },
       },
       {
         name: "Sudhandhu",
         role: "PCr Team Member",
-        photo: "/images/profile2.png",
+        photo: "/images/sudhanshu.jpeg",
         social: {
           instagram: "https://instagram.com/sudhandhu",
           linkedin: "https://linkedin.com/in/sudhandhu",
@@ -173,33 +237,24 @@ const OurTeam = () => {
         },
       },
     ],
-    "Event Managers": [
+    "Event Manager": [
       {
-        name: "Lakshy",
+        name: "Lakshy Chauhan",
         role: "Event Manager",
-        photo: "/images/profile2.png",
+        photo: "/images/lakshy.jpg",
         social: {
           instagram: "https://instagram.com/lakshy",
           linkedin: "https://linkedin.com/in/lakshy",
           github: "https://github.com/lakshy",
         },
       },
-      {
-        name: "Puran Joshi",
-        role: "Event Manager",
-        photo: "/images/puran.jpg",
-        social: {
-          instagram: "https://www.instagram.com/puran_joshi_07",
-          linkedin: "https://www.linkedin.com/in/puran-joshi-a697b3307",
-        },
-      },
     ],
 
-    Editors: [
+    Editor: [
       {
-        name: "Praveen",
+        name: "Pranav",
         role: "Editor",
-        photo: "/images/profile3.png",
+        photo: "/images/pranav.jpeg",
         social: {
           instagram: "https://instagram.com/praveen",
           linkedin: "https://linkedin.com/in/praveen",
@@ -392,7 +447,7 @@ const OurTeam = () => {
                         </p>
 
                         {/* Social Media Links */}
-                        <div className="flex justify-center items-center gap-4 mb-4">
+                        {/* <div className="flex justify-center items-center gap-4 mb-4">
                           {member.social?.instagram && (
                             <a
                               href={member.social.instagram}
@@ -444,7 +499,7 @@ const OurTeam = () => {
                               </svg>
                             </a>
                           )}
-                        </div>
+                        </div> */}
 
                         {/* Decorative accent */}
                         <div className="relative h-[1px] w-full mt-4 overflow-hidden">
