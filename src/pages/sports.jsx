@@ -1,11 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
 import { cocktailLists, mockTailLists } from "../../constants/index.js";
 
 const Sports = () => {
-  const [activeTab, setActiveTab] = useState("all");
-
   useEffect(() => {
     // Animation for the title text
     const heroSplit = new SplitText(".sports-title", { type: "chars, words" });
@@ -42,17 +40,9 @@ const Sports = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  // Combine all sports
-  const allSports = [...cocktailLists, ...mockTailLists];
-
-  // Filter sports based on active tab
-  const filteredSports =
-    activeTab === "all"
-      ? allSports
-      : activeTab === "main"
-      ? cocktailLists
-      : mockTailLists;
+  
+  // Get sports from prize pool only
+  const prizePoolSports = [...cocktailLists, ...mockTailLists];
 
   return (
     <main className="min-h-screen bg-black text-white relative overflow-hidden">
@@ -106,43 +96,9 @@ const Sports = () => {
             </div>
           </div>
 
-          {/* Tab navigation */}
-          <div className="flex justify-center space-x-6 mb-12">
-            <button
-              onClick={() => setActiveTab("all")}
-              className={`px-6 py-3 rounded-full text-lg font-semibold transition-all duration-300 ${
-                activeTab === "all"
-                  ? "bg-white text-black"
-                  : "bg-transparent text-white border border-white/30 hover:bg-white/10"
-              }`}
-            >
-              All Sports
-            </button>
-            <button
-              onClick={() => setActiveTab("main")}
-              className={`px-6 py-3 rounded-full text-lg font-semibold transition-all duration-300 ${
-                activeTab === "main"
-                  ? "bg-white text-black"
-                  : "bg-transparent text-white border border-white/30 hover:bg-white/10"
-              }`}
-            >
-              Main Events
-            </button>
-            <button
-              onClick={() => setActiveTab("other")}
-              className={`px-6 py-3 rounded-full text-lg font-semibold transition-all duration-300 ${
-                activeTab === "other"
-                  ? "bg-white text-black"
-                  : "bg-transparent text-white border border-white/30 hover:bg-white/10"
-              }`}
-            >
-              Other Events
-            </button>
-          </div>
-
           {/* Sports grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredSports.map((sport, index) => (
+            {prizePoolSports.map((sport, index) => (
               <div
                 key={index}
                 className="relative group overflow-hidden rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 transition-all duration-500 hover:bg-white/10"
@@ -156,9 +112,14 @@ const Sports = () => {
                   <p className="text-gray-300 mb-1">Venue: {sport.country}</p>
                   <p className="text-gray-300 mb-3">Location: {sport.detail}</p>
                   <div className="flex items-center justify-between">
-                    <span className="text-yellow-400 font-bold">
-                      {sport.price}
-                    </span>
+                    <div>
+                      <span className="text-yellow-400 font-bold">
+                        {sport.price}
+                      </span>
+                      <div className="text-yellow-400 text-xs">
+                        (Up to)
+                      </div>
+                    </div>
                     <a
                       href="https://forms.gle/tChC48TeBZ9En16y6"
                       className="bg-white text-black px-4 py-2 rounded-full text-sm font-bold transform transition-transform duration-300 group-hover:scale-105"
@@ -177,6 +138,10 @@ const Sports = () => {
                 </div>
               </div>
             ))}
+          </div>
+          
+          <div className="text-center mt-8 text-sm text-gray-400">
+            THE AMOUNTS ARE SUBJECT TO CHANGE BASED ON THE NUMBER OF PARTICIPANTS
           </div>
         </div>
       </section>

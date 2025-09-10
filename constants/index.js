@@ -21,19 +21,19 @@ const cocktailLists = [
   {
     name: "Cricket",
     country: "Cricket Ground",
-    detail: "BKBIET",
+    detail: "BKBIET Pilani",
     price: "₹52,000",
   },
   {
     name: "BasketBall",
     country: "BasketBall Court",
-    detail: "BKBIET",
+    detail: "BKBIET Pilani",
     price: "₹42,000",
   },
   {
     name: "Volleyball",
     country: "Volleyball Court",
-    detail: "BKBIET",
+    detail: "BKBIET Pilani",
     price: "₹42,000",
   },
   {
@@ -45,13 +45,13 @@ const cocktailLists = [
   {
     name: "Kabaddi",
     country: "Kabaddi Court",
-    detail: "BKBIET",
+    detail: "BKBIET Pilani",
     price: "₹16,000",
   },
   {
     name: "Badminton",
     country: "Sports Complex",
-    detail: "BKBIET",
+    detail: "BKBIET Pilani",
     price: "₹7,000",
   },
 ];
@@ -60,31 +60,31 @@ const mockTailLists = [
   {
     name: "BasketBall",
     country: "BasketBall Court",
-    detail: "BKBIET",
+    detail: "BKBIET Pilani",
     price: "₹21,000",
   },
   {
     name: "Volleyball",
     country: "Volleyball Court",
-    detail: "BKBIET",
+    detail: "BKBIET Pilani",
     price: "₹16,000",
   },
   {
     name: "Futsal",
     country: "Ground",
-    detail: "BKBIET",
+    detail: "BKBIET Pilani",
     price: "₹12,000",
   },
   {
     name: "Kabaddi",
     country: "Kabaddi Court",
-    detail: "BKBIET",
+    detail: "BKBIET Pilani",
     price: "₹8,000",
   },
   {
     name: "Badminton",
     country: "Sports Complex",
-    detail: "BKBIET",
+    detail: "BKBIET Pilani",
     price: "₹6,000",
   }
 ];
@@ -138,7 +138,7 @@ const socials = [
   {
     name: "Instagram",
     icon: "/images/insta.png",
-    url: "https://www.instagram.com/bkbietquasar",
+    url: "https://www.instagram.com/BKBIET Pilaniquasar",
   }
 ];
 

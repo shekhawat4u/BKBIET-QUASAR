@@ -40,13 +40,13 @@ const About = () => {
       <div className="mb-16 md:px-0 px-5">
         <div className="content">
           <div className="md:col-span-8">
-            <p className="badge">Annual Sports Fest • BKBIET, Pilani</p>
+            <p className="badge">Annual Sports Fest • BKBIET Pilani, Pilani</p>
             <h2>Where champions rise from tryouts to trophies</h2>
           </div>
 
           <div className="sub-content">
             <p>
-              QUASAR is BKBIET Pilani’s flagship annual sports fest, uniting
+              QUASAR is BKBIET Pilani Pilani’s flagship annual sports fest, uniting
               athletes across disciplines to compete, celebrate, and push
               limits. From track to team sports, every match, set, and sprint is
               a shot at glory.

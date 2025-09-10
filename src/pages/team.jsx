@@ -8,9 +8,7 @@ const OurTeam = () => {
         role: "Convenor",
         photo: "/images/nitin.jpeg",
         social: {
-          instagram: "https://instagram.com/nitinconvenor",
-          linkedin: "https://linkedin.com/in/nitinconvenor",
-          github: "https://github.com/nitinconvenor",
+          instagram: "https://www.instagram.com/n_jangir_15",
         },
       },
       {
@@ -78,8 +76,8 @@ const OurTeam = () => {
         role: "Kabaddi Coordinator",
         photo: "/images/shivam.jpeg",
         social: {
-          instagram: "https://www.instagram.com/rohitgodara345",
-          linkedin: "https://www.linkedin.com/in/rohit-godara-050a96381",
+          instagram: "https://www.instagram.com/shivamsharma7777_",
+          linkedin: ":https://www.linkedin.com/in/shivam-sharma-91123127b",
         },
       },
       {
@@ -96,8 +94,7 @@ const OurTeam = () => {
         role: "E-Sports Coordinator",
         photo: "/images/parveen.jpeg",
         social: {
-          instagram: "https://www.instagram.com/amandeg1",
-          linkedin: "https://www.linkedin.com/in/aman-deg",
+          instagram: "https://www.instagram.com/parveen__yadv",
         },
       },
       {
@@ -105,9 +102,7 @@ const OurTeam = () => {
         role: "Volleyball Coordinator",
         photo: "/images/yash.jpeg",
         social: {
-          instagram: "https://instagram.com/yashjangid",
-          linkedin: "https://linkedin.com/in/yashjangid",
-          github: "https://github.com/yashjangid",
+          instagram: "https://www.instagram.com/jangidyash2782",
         },
       },
       {
@@ -133,9 +128,7 @@ const OurTeam = () => {
         role: "Cricket Coordinator",
         photo: "/images/aditya.jpeg",
         social: {
-          instagram: "https://instagram.com/yashjangid",
-          linkedin: "https://linkedin.com/in/yashjangid",
-          github: "https://github.com/yashjangid",
+          instagram: "https://www.instagram.com/bhomia_aditya_09",
         },
       },
       {
@@ -143,8 +136,7 @@ const OurTeam = () => {
         role: "Cricket Coordinator",
         photo: "/images/abhishek.jpeg",
         social: {
-          instagram: "https://www.instagram.com/maan_amit_007",
-          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+          instagram: "https://www.instagram.com/exciusive.abhi",
         },
       },
       {
@@ -161,8 +153,7 @@ const OurTeam = () => {
         role: "Badminton Coordinator",
         photo: "/images/himanshu.jpeg",
         social: {
-          instagram: "https://www.instagram.com/maan_amit_007",
-          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+          instagram: "https://www.instagram.com/h.i.m.a.n.s.h.u.1_",
         },
       },
     ],
@@ -222,9 +213,7 @@ const OurTeam = () => {
         role: "PCr Team Member",
         photo: "/images/sudhanshu.jpeg",
         social: {
-          instagram: "https://instagram.com/sudhandhu",
-          linkedin: "https://linkedin.com/in/sudhandhu",
-          github: "https://github.com/sudhandhu",
+          instagram: "https://www.instagram.com/sudh__m",
         },
       },
       {
@@ -256,9 +245,7 @@ const OurTeam = () => {
         role: "Editor",
         photo: "/images/pranav.jpeg",
         social: {
-          instagram: "https://instagram.com/praveen",
-          linkedin: "https://linkedin.com/in/praveen",
-          github: "https://github.com/praveen",
+          instagram: "https://www.instagram.com/prannavvxd",
         },
       },
     ],
@@ -447,7 +434,7 @@ const OurTeam = () => {
                         </p>
 
                         {/* Social Media Links */}
-                        {/* <div className="flex justify-center items-center gap-4 mb-4">
+                        <div className="flex justify-center items-center gap-4 mb-4">
                           {member.social?.instagram && (
                             <a
                               href={member.social.instagram}
@@ -499,7 +486,7 @@ const OurTeam = () => {
                               </svg>
                             </a>
                           )}
-                        </div> */}
+                        </div>
 
                         {/* Decorative accent */}
                         <div className="relative h-[1px] w-full mt-4 overflow-hidden">

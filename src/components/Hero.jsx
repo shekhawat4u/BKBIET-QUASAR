@@ -91,7 +91,7 @@ const Hero = () => {
 
           <div className="content">
             <div className="space-y-5 hidden md:block">
-              <p>Annual Sports Fest of BKBIET, Pilani</p>
+              <p>Annual Sports Fest of BKBIET Pilani, Pilani</p>
               <p className="subtitle">
                 The Game Of <br /> Ice And Fire
               </p>

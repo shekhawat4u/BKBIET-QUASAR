@@ -61,7 +61,7 @@ const Navbar = () => {
           <img
             src="/images/BKBIET.png"
             className="w-10 h-10 rounded-full border-2 border-[#D6C3A1] bg-white"
-            alt="BKBIET logo"
+            alt="BKBIET Pilani logo"
           />
 
           <p>QUASAR</p>

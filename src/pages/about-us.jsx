@@ -96,7 +96,7 @@ const AboutUs = () => {
               </div>
 
               <p className="about-subtitle max-w-4xl mx-auto text-lg md:text-xl text-gray-300 leading-relaxed">
-                QUASAR is the annual sports fest of BKBIET, Pilani, bringing
+                QUASAR is the annual sports fest of BKBIET Pilani, Pilani, bringing
                 together students, athletes, and sports enthusiasts from across
                 the region. Our mission is to foster sportsmanship, teamwork,
                 and healthy competition through a diverse range of events and
@@ -147,9 +147,9 @@ const AboutUs = () => {
                   <div className="w-24 h-1 bg-gradient-to-r from-[#e7d393] to-transparent"></div>
                 </div>
                 <div className="space-y-6 text-gray-300">
-                  <p>Born from a vision to unite sports enthusiasts across the region, QUASAR first illuminated the campus of BKBIET, Pilani in 2012. What began as a modest sporting event has evolved into one of Rajasthan's premier collegiate sports festivals.</p>
+                  <p>Born from a vision to unite sports enthusiasts across the region, QUASAR first illuminated the campus of BKBIET Pilani, Pilani in 2012. What began as a modest sporting event has evolved into one of Rajasthan's premier collegiate sports festivals.</p>
                   <p>With each passing year, QUASAR has expanded its horizons, introducing new events, attracting more participants, and raising the standards of competition. From traditional sports like cricket and football to modern athletic challenges, QUASAR has become a platform where talent meets opportunity.</p>
-                  <p>Today, QUASAR stands as a testament to BKBIET's commitment to fostering physical excellence alongside academic achievements, bringing together over 1000 participants from 30+ colleges annually.</p>
+                  <p>Today, QUASAR stands as a testament to BKBIET Pilani's commitment to fostering physical excellence alongside academic achievements, bringing together over 1000 participants from 30+ colleges annually.</p>
                 </div>
               </div>
             </div>
@@ -263,7 +263,7 @@ const AboutUs = () => {
                   REGISTER NOW
                 </a>
                 <a
-                  href="mailto:quasar@bkbiet.ac.in"
+                  href="mailto:quasar@BKBIET Pilani.ac.in"
                   className="relative inline-block px-8 py-4 overflow-hidden group"
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-r from-[#e7d393] to-[#d4a853] group-hover:opacity-100"></span>
