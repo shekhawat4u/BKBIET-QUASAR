@@ -60,7 +60,7 @@ const IntroVideo = ({ onVideoEnd }) => {
       {showIntroText && (
         <div className="absolute inset-0 bg-black z-10 flex flex-col items-center justify-center">
           <h1 className="text-[#e7d393] font-modern-negra text-4xl md:text-6xl text-center mb-10">
-            Enter the game of Ice and Fire
+            Enter The Game of Ice and Fire
           </h1>
           <button 
             onClick={() => setShowIntroText(false)} 
