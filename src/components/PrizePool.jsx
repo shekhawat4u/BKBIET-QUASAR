@@ -38,7 +38,10 @@ const PrizePool = () => {
 				 <h3>{name}</h3>
 				 <p>{country} | {detail}</p>
 				</div>
-				<span>{price}</span>
+				<div className="flex flex-col items-end">
+				 <span>{price}</span>
+				 <span className="text-xs text-[#e7d393]/80">(Up to)</span>
+				</div>
 			 </li>
 			))}
 		 </ul>
@@ -54,11 +57,21 @@ const PrizePool = () => {
 				 <h3>{name}</h3>
 				 <p>{country} | {detail}</p>
 				</div>
-				<span>{price}</span>
+				<div className="flex flex-col items-end">
+				 <span>{price}</span>
+				 <span className="text-xs text-[#e7d393]/80">(Up to)</span>
+				</div>
 			 </li>
 			))}
 		 </ul>
 		</div>
+	 </div>
+	 
+	 {/* Disclaimer */}
+	 <div className="text-center mt-12 px-4 max-w-3xl mx-auto">
+		<p className="text-[#e7d393] text-sm md:text-base font-medium">
+		  THE AMOUNTS ARE SUBJECTED TO CHANGE BASED ON THE NUMBER OF PARTICIPANTS
+		</p>
 	 </div>
 	</section>
  )
