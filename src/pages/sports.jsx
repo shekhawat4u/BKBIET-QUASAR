@@ -160,7 +160,7 @@ const Sports = () => {
                       {sport.price}
                     </span>
                     <a
-                      href="#"
+                      href="https://forms.gle/tChC48TeBZ9En16y6"
                       className="bg-white text-black px-4 py-2 rounded-full text-sm font-bold transform transition-transform duration-300 group-hover:scale-105"
                     >
                       Register Now
@@ -208,7 +208,7 @@ const Sports = () => {
               participate in your favorite sports events and win amazing prizes!
             </p>
             <a
-              href="#"
+              href="https://forms.gle/tChC48TeBZ9En16y6"
               className="inline-block bg-white text-black px-8 py-4 rounded-full text-lg font-bold transform transition-transform duration-300 hover:scale-105"
             >
               Register for Sports Events

@@ -105,7 +105,7 @@ const Hero = () => {
 				Here, victory is not merely about a score, but about leaving behind a legacy worthy of the throne.
               </p>
               <a
-                href="#cocktails"
+                href="https://forms.gle/tChC48TeBZ9En16y6"
                 className="font-semibold opacity-80 2xl:text-start text-center text-gray-900 hover:text-black bg-yellow px-4 py-2 rounded-2xl"
               >
                 Register Now

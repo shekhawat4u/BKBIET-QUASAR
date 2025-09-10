@@ -56,23 +56,23 @@ const cocktailLists = [
     name: "Badminton",
     country: "Sports Complex",
     detail: "BKBIET",
-    price: "₹12,000",
-  },
-  {
-    name: "Table Tennis",
-    country: "Sports Complex",
-    detail: "BKBIET",
-    price: "₹7,000",
-  },
-  {
-    name: "Powerlifting",
-    country: "Gym",
-    detail: "BKBIET",
     price: "₹7,000",
   },
 ];
 
 const mockTailLists = [
+  {
+    name: "BasketBall",
+    country: "BasketBall Court",
+    detail: "BKBIET",
+    price: "₹21,000",
+  },
+  {
+    name: "Volleyball",
+    country: "Volleyball Court",
+    detail: "BKBIET",
+    price: "₹16,000",
+  },
   {
     name: "Futsal",
     country: "Ground",
@@ -83,20 +83,14 @@ const mockTailLists = [
     name: "Kabaddi",
     country: "Kabaddi Court",
     detail: "BKBIET",
-    price: "₹12,000",
+    price: "₹8,000",
   },
   {
     name: "Badminton",
     country: "Sports Complex",
     detail: "BKBIET",
     price: "₹6,000",
-  },
-  {
-    name: "Table Tennis",
-    country: "Sports Complex",
-    detail: "BKBIET",
-    price: "₹6,000",
-  },
+  }
 ];
 
 const profileLists = [

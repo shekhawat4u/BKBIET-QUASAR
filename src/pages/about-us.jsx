@@ -107,7 +107,7 @@ const AboutUs = () => {
 
               <div className="mt-12">
                 <a
-                  href="/register"
+                  href="https://forms.gle/tChC48TeBZ9En16y6"
                   className="relative inline-block px-8 py-4 overflow-hidden group"
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-r from-[#e7d393] to-[#d4a853] group-hover:opacity-100"></span>
@@ -257,13 +257,13 @@ const AboutUs = () => {
               </p>
               <div className="flex flex-col md:flex-row gap-6 justify-center">
                 <a
-                  href="/register"
+                  href="https://forms.gle/tChC48TeBZ9En16y6"
                   className="relative inline-block px-8 py-4 overflow-hidden group bg-[#e7d393] text-black font-bold rounded-md hover:bg-[#d4a853] transition-all duration-300"
                 >
                   REGISTER NOW
                 </a>
                 <a
-                  href="/contact"
+                  href="mailto:quasar@bkbiet.ac.in"
                   className="relative inline-block px-8 py-4 overflow-hidden group"
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-r from-[#e7d393] to-[#d4a853] group-hover:opacity-100"></span>

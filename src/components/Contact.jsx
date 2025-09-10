@@ -58,7 +58,7 @@ const Contact = () => {
         <h2>Connect with QUASAR</h2>
         <div className="mt-4 mb-6">
           <a
-            href="#register"
+            href="https://forms.gle/tChC48TeBZ9En16y6"
             className="px-6 py-2 rounded-full bg-[#D6C3A1] text-black font-semibold shadow hover:bg-[#cbb07c] transition-colors"
           >
             Register Now
