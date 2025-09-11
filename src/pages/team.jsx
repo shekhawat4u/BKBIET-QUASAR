@@ -32,6 +32,15 @@ const OurTeam = () => {
           linkedin: "https://www.linkedin.com/in/aman-deg",
         },
       },
+      {
+        name: "Yash Jangid",
+        contact: "+91 9351444977",
+        role: "Sports Officer",
+        photo: "/images/yash.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/jangidyash2782",
+        },
+      },
     ],
 
     "Sports Coordinators": [
@@ -82,15 +91,6 @@ const OurTeam = () => {
         photo: "/images/parveen.jpeg",
         social: {
           instagram: "https://www.instagram.com/parveen__yadv",
-        },
-      },
-      {
-        name: "Yash Jangid",
-        contact: "+91 9351444977",
-        role: "Volleyball Coordinator",
-        photo: "/images/yash.jpeg",
-        social: {
-          instagram: "https://www.instagram.com/jangidyash2782",
         },
       },
       {
