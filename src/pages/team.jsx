@@ -22,6 +22,16 @@ const OurTeam = () => {
           linkedin: "https://www.linkedin.com/in/yashashvijangid",
         },
       },
+      {
+        name: "Aman Deg",
+        contact: "+91 9314222024",
+        role:"Sports Officer",
+        photo: "/images/aman.jpg",
+        social: {
+          instagram: "https://www.instagram.com/amandeg1",
+          linkedin: "https://www.linkedin.com/in/aman-deg",
+        },
+      },
     ],
 
     "Sports Coordinators": [
@@ -63,16 +73,6 @@ const OurTeam = () => {
         social: {
           instagram: "https://www.instagram.com/shivamsharma7777_",
           linkedin: ":https://www.linkedin.com/in/shivam-sharma-91123127b",
-        },
-      },
-      {
-        name: "Aman Singh",
-        contact: "+91 9314222024",
-        role: "E-Sports Coordinator",
-        photo: "/images/aman.jpg",
-        social: {
-          instagram: "https://www.instagram.com/amandeg1",
-          linkedin: "https://www.linkedin.com/in/aman-deg",
         },
       },
       {
