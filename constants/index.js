@@ -17,7 +17,7 @@ const navLinks = [
   },
 ];
 
-const cocktailLists = [
+const maleSportsLists = [
   {
     name: "Cricket",
     country: "Cricket Ground",
@@ -56,7 +56,7 @@ const cocktailLists = [
   },
 ];
 
-const mockTailLists = [
+const femaleSportsLists = [
   {
     name: "BasketBall",
     country: "BasketBall Court",
@@ -179,8 +179,8 @@ const allCocktails = [
 
 export {
   navLinks,
-  cocktailLists,
-  mockTailLists,
+  maleSportsLists,
+  femaleSportsLists,
   profileLists,
   featureLists,
   goodLists,

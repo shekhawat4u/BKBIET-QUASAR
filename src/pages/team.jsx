@@ -4,7 +4,8 @@ const OurTeam = () => {
   const teamData = {
     Convenors: [
       {
-        name: "Nitin",
+        name: "Nitin Jangir",
+        contact: "+91 9414279109",
         role: "Convenor",
         photo: "/images/nitin.jpeg",
         social: {
@@ -13,6 +14,7 @@ const OurTeam = () => {
       },
       {
         name: "Yashashvi Jangid",
+        contact: "+91 9950050535",
         role: "Co - Convenor",
         photo: "/images/yashashvi.jpg",
         social: {
@@ -21,6 +23,238 @@ const OurTeam = () => {
         },
       },
     ],
+
+    "Sports Coordinators": [
+      {
+        name: "Nitin",
+        contact: "+91 8619627761",
+        role: "Sports Officer",
+        photo: "/images/nitin2.jpeg",
+        social: {
+          instagram: "https://instagram.com/nitin",
+          linkedin: "https://linkedin.com/in/nitin",
+          github: "https://github.com/nitin",
+        },
+      },
+      {
+        name: "Tanmay",
+        contact: "+91 8990617241",
+        role: "Sports Officer",
+        photo: "/images/tanmay.jpg",
+        social: {
+          instagram: "https://www.instagram.com/tan__y20",
+        },
+      },
+      {
+        name: "Rohit Godara",
+        contact: "+91 8824958885",
+        role: "Kabaddi Coordinator",
+        photo: "/images/rohit.jpg",
+        social: {
+          instagram: "https://www.instagram.com/rohitgodara345",
+          linkedin: "https://www.linkedin.com/in/rohit-godara-050a96381",
+        },
+      },
+      {
+        name: "Shivam Sharma",
+        contact: "+91 9549928366",
+        role: "Kabaddi Coordinator",
+        photo: "/images/shivam.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/shivamsharma7777_",
+          linkedin: ":https://www.linkedin.com/in/shivam-sharma-91123127b",
+        },
+      },
+      {
+        name: "Aman Singh",
+        contact: "+91 9314222024",
+        role: "E-Sports Coordinator",
+        photo: "/images/aman.jpg",
+        social: {
+          instagram: "https://www.instagram.com/amandeg1",
+          linkedin: "https://www.linkedin.com/in/aman-deg",
+        },
+      },
+      {
+        name: "Parveen Yadav",
+        contact: "+91 9518457402",
+        role: "E-Sports Coordinator",
+        photo: "/images/parveen.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/parveen__yadv",
+        },
+      },
+      {
+        name: "Yash Jangid",
+        contact: "+91 9351444977",
+        role: "Volleyball Coordinator",
+        photo: "/images/yash.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/jangidyash2782",
+        },
+      },
+      {
+        name: "Amit Maan",
+        contact: "+91 9358335291",
+        role: "Volleyball Coordinator",
+        photo: "/images/amit.jpg",
+        social: {
+          instagram: "https://www.instagram.com/maan_amit_007",
+          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+        },
+      },
+      {
+        name: "Harshvardhan Saini",
+        contact: "+91 7891280076",
+        role: "Football Coordinator",
+        photo: "/images/harsh.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/maan_amit_007",
+          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+        },
+      },
+      {
+        name: "Aditya Bhomia",
+        contact: "+91 7023043828",
+        role: "Cricket Coordinator",
+        photo: "/images/aditya.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/bhomia_aditya_09",
+        },
+      },
+      {
+        name: "Abhishek Saini",
+        contact: "+91 9887510221",
+        role: "Cricket Coordinator",
+        photo: "/images/abhishek.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/exciusive.abhi",
+        },
+      },
+      {
+        name: "Puran",
+        contact: "+91 8290848992",
+        role: "Basketball Coordinator",
+        photo: "/images/puran.jpg",
+        social: {
+          instagram: "https://www.instagram.com/maan_amit_007",
+          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+        },
+      },
+      {
+        name: "Himanshu",
+        contact: "+91 9416490501",
+        role: "Badminton Coordinator",
+        photo: "/images/himanshu.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/h.i.m.a.n.s.h.u.1_",
+        },
+      },
+    ],
+
+    "PCr Team": [
+      {
+        name: "Urvashi",
+        contact: "+91 9256564975",
+        role: "PCr Team Member",
+        photo: "/images/urvashi.jpeg",
+        social: {
+          instagram: "https://instagram.com/urvashi",
+          linkedin: "https://linkedin.com/in/urvashi",
+          github: "https://github.com/urvashi",
+        },
+      },
+      {
+        name: "Chetna Bhardwaj",
+        contact: "+91 9868485470",
+        role: "PCr Team Member",
+        photo: "/images/chetna.jpeg",
+        social: {
+          instagram: "https://instagram.com/chetnabhardwaj",
+          linkedin: "https://linkedin.com/in/chetnabhardwaj",
+          github: "https://github.com/chetnabhardwaj",
+        },
+      },
+      {
+        name: "Shashi",
+        contact: "+91 8708566355",
+        role: "PCr Team Member",
+        photo: "/images/shashi.jpg",
+        social: {
+          instagram: "https://www.instagram.com/kalkal.shashi",
+          linkedin: "https://linkedin.com/in/shashikalkal",
+        },
+      },
+      {
+        name: "Praveen Sharma",
+        contact: "+91 7231841289",
+        role: "PCr Team Member",
+        photo: "/images/praveen.jpg",
+        social: {
+          instagram: "https://www.instagram.com/ipraveensharma_",
+          linkedin: "https://www.linkedin.com/in/praveen-sharma09",
+          github: "https://github.com/Praveensharma05",
+        },
+      },
+      {
+        name: "Nishant Kumar Bainara",
+        contact: "+91 7240662081",
+        role: "PCr Team Member",
+        photo: "/images/nishant.jpg",
+        social: {
+          instagram: "https://www.instagram.com/ms_nishant7781",
+          linkedin:
+            "https://www.linkedin.com/in/nishant-kumar-bainara-bb91a32aa",
+          github: "https://github.com/NKB7781",
+        },
+      },
+      {
+        name: "Sudhandhu",
+        contact: "+91 9354630669",
+        role: "PCr Team Member",
+        photo: "/images/sudhanshu.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/sudh__m",
+        },
+      },
+      {
+        name: "Apoorva Bissa",
+        contact: "+91 7878363370",
+        role: "PCr Team Member",
+        photo: "/images/apoorva.jpg",
+        social: {
+          instagram: "https://www.instagram.com/bissa_apoorva",
+          linkedin: "https://linkedin.com/in/apoorva-bissa-38117b355",
+        },
+      },
+    ],
+
+    "Event Manager": [
+      {
+        name: "Lakshy Chauhan",
+        contact: "+91 6350142804",
+        role: "Event Manager",
+        photo: "/images/lakshy.jpg",
+        social: {
+          instagram: "https://instagram.com/lakshy",
+          linkedin: "https://linkedin.com/in/lakshy",
+          github: "https://github.com/lakshy",
+        },
+      },
+    ],
+
+    Editor: [
+      {
+        name: "Pranav",
+        contact: "+91 9928180571",
+        role: "Editor",
+        photo: "/images/pranav.jpeg",
+        social: {
+          instagram: "https://www.instagram.com/prannavvxd",
+        },
+      },
+    ],
+
     "Web Designer & Developers": [
       {
         name: "Divya Raghav",
@@ -41,211 +275,14 @@ const OurTeam = () => {
           github: "https://github.com/shekhawat4u",
         },
       },
-    ],
-
-    "Sports Coordinators": [
       {
-        name: "Nitin",
-        role: "Sports Officer",
-        photo: "/images/nitin2.jpeg",
+        name: "Sumit Singh Rathore",
+        role: "Web Designer & Developer",
+        photo: "https://github.com/developer-sumit.png",
         social: {
-          instagram: "https://instagram.com/nitin",
-          linkedin: "https://linkedin.com/in/nitin",
-          github: "https://github.com/nitin",
-        },
-      },
-      {
-        name: "Tanmay",
-        role: "Sports Officer",
-        photo: "/images/tanmay.jpg",
-        social: {
-          instagram: "https://www.instagram.com/tan__y20",
-        },
-      },
-      {
-        name: "Rohit Godara",
-        role: "Kabaddi Coordinator",
-        photo: "/images/rohit.jpg",
-        social: {
-          instagram: "https://www.instagram.com/rohitgodara345",
-          linkedin: "https://www.linkedin.com/in/rohit-godara-050a96381",
-        },
-      },
-      {
-        name: "Shivam Sharma",
-        role: "Kabaddi Coordinator",
-        photo: "/images/shivam.jpeg",
-        social: {
-          instagram: "https://www.instagram.com/shivamsharma7777_",
-          linkedin: ":https://www.linkedin.com/in/shivam-sharma-91123127b",
-        },
-      },
-      {
-        name: "Aman Singh",
-        role: "E-Sports Coordinator",
-        photo: "/images/aman.jpg",
-        social: {
-          instagram: "https://www.instagram.com/amandeg1",
-          linkedin: "https://www.linkedin.com/in/aman-deg",
-        },
-      },
-      {
-        name: "Parveen Yadav",
-        role: "E-Sports Coordinator",
-        photo: "/images/parveen.jpeg",
-        social: {
-          instagram: "https://www.instagram.com/parveen__yadv",
-        },
-      },
-      {
-        name: "Yash Jangid",
-        role: "Volleyball Coordinator",
-        photo: "/images/yash.jpeg",
-        social: {
-          instagram: "https://www.instagram.com/jangidyash2782",
-        },
-      },
-      {
-        name: "Amit Maan",
-        role: "Volleyball Coordinator",
-        photo: "/images/amit.jpg",
-        social: {
-          instagram: "https://www.instagram.com/maan_amit_007",
-          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
-        },
-      },
-      {
-        name: "Harshvardhan Saini",
-        role: "Football Coordinator",
-        photo: "/images/harsh.jpeg",
-        social: {
-          instagram: "https://www.instagram.com/maan_amit_007",
-          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
-        },
-      },
-      {
-        name: "Aditya Bhomia",
-        role: "Cricket Coordinator",
-        photo: "/images/aditya.jpeg",
-        social: {
-          instagram: "https://www.instagram.com/bhomia_aditya_09",
-        },
-      },
-      {
-        name: "Abhishek Saini",
-        role: "Cricket Coordinator",
-        photo: "/images/abhishek.jpeg",
-        social: {
-          instagram: "https://www.instagram.com/exciusive.abhi",
-        },
-      },
-      {
-        name: "Puran",
-        role: "Basketball Coordinator",
-        photo: "/images/puran.jpg",
-        social: {
-          instagram: "https://www.instagram.com/maan_amit_007",
-          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
-        },
-      },
-      {
-        name: "Himanshu",
-        role: "Badminton Coordinator",
-        photo: "/images/himanshu.jpeg",
-        social: {
-          instagram: "https://www.instagram.com/h.i.m.a.n.s.h.u.1_",
-        },
-      },
-    ],
-    "PCr Team": [
-      {
-        name: "Urvashi",
-        role: "PCr Team Member",
-        photo: "/images/urvashi.jpeg",
-        social: {
-          instagram: "https://instagram.com/urvashi",
-          linkedin: "https://linkedin.com/in/urvashi",
-          github: "https://github.com/urvashi",
-        },
-      },
-      {
-        name: "Chetna Bhardwaj",
-        role: "PCr Team Member",
-        photo: "/images/chetna.jpeg",
-        social: {
-          instagram: "https://instagram.com/chetnabhardwaj",
-          linkedin: "https://linkedin.com/in/chetnabhardwaj",
-          github: "https://github.com/chetnabhardwaj",
-        },
-      },
-      {
-        name: "Shashi",
-        role: "PCr Team Member",
-        photo: "/images/shashi.jpg",
-        social: {
-          instagram: "https://www.instagram.com/kalkal.shashi",
-          linkedin: "https://linkedin.com/in/shashikalkal",
-        },
-      },
-      {
-        name: "Praveen Sharma",
-        role: "PCr Team Member",
-        photo: "/images/praveen.jpg",
-        social: {
-          instagram: "https://www.instagram.com/ipraveensharma_",
-          linkedin: "https://www.linkedin.com/in/praveen-sharma09",
-          github: "https://github.com/Praveensharma05",
-        },
-      },
-      {
-        name: "Nishant Kumar Bainara",
-        role: "PCr Team Member",
-        photo: "/images/nishant.jpg",
-        social: {
-          instagram: "https://www.instagram.com/ms_nishant7781",
-          linkedin:
-            "https://www.linkedin.com/in/nishant-kumar-bainara-bb91a32aa",
-          github: "https://github.com/NKB7781",
-        },
-      },
-      {
-        name: "Sudhandhu",
-        role: "PCr Team Member",
-        photo: "/images/sudhanshu.jpeg",
-        social: {
-          instagram: "https://www.instagram.com/sudh__m",
-        },
-      },
-      {
-        name: "Apoorva Bissa",
-        role: "PCr Team Member",
-        photo: "/images/apoorva.jpg",
-        social: {
-          instagram: "https://www.instagram.com/bissa_apoorva",
-          linkedin: "https://linkedin.com/in/apoorva-bissa-38117b355",
-        },
-      },
-    ],
-    "Event Manager": [
-      {
-        name: "Lakshy Chauhan",
-        role: "Event Manager",
-        photo: "/images/lakshy.jpg",
-        social: {
-          instagram: "https://instagram.com/lakshy",
-          linkedin: "https://linkedin.com/in/lakshy",
-          github: "https://github.com/lakshy",
-        },
-      },
-    ],
-
-    Editor: [
-      {
-        name: "Pranav",
-        role: "Editor",
-        photo: "/images/pranav.jpeg",
-        social: {
-          instagram: "https://www.instagram.com/prannavvxd",
+          instagram: "https://instagram.com/__sumit_banna",
+          linkedin: "https://linkedin.com/in/sumit-singh-rathore",
+          github: "https://github.com/developer-sumit",
         },
       },
     ],

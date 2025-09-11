@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
-import { cocktailLists, mockTailLists } from "../../constants/index.js";
+import { maleSportsLists, femaleSportsLists } from "../../constants/index.js";
 
 const Sports = () => {
   useEffect(() => {
@@ -40,9 +40,12 @@ const Sports = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  
+
   // Get sports from prize pool only
-  const prizePoolSports = [...cocktailLists, ...mockTailLists];
+  const prizePoolSports = {
+    boys: maleSportsLists,
+    girls: femaleSportsLists,
+  };
 
   return (
     <main className="min-h-screen bg-black text-white relative overflow-hidden">
@@ -78,11 +81,8 @@ const Sports = () => {
         />
       </div>
 
-      <section
-        id="sports-hero"
-        className="relative pt-40 pb-20 px-6 md:px-20 z-10 noisy"
-      >
-        <div className="max-w-7xl mx-auto">
+      <section className="relative pt-40 pb-20 px-6 md:px-20 z-10 noisy">
+        <div className="mx-auto">
           <div className="relative text-center mb-16">
             <div className="text-center mb-4">
               <h1 className="sports-title text-4xl md:text-6xl lg:text-7xl font-modern-negra uppercase mb-8">
@@ -96,52 +96,64 @@ const Sports = () => {
             </div>
           </div>
 
-          {/* Sports grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {prizePoolSports.map((sport, index) => (
-              <div
-                key={index}
-                className="relative group overflow-hidden rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 transition-all duration-500 hover:bg-white/10"
-              >
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60 opacity-70"></div>
+          {/* Sports */}
+          <div>
+            {Object.entries(prizePoolSports).map(([key, sports]) => (
+              <div key={key} className="mt-10">
+                <p className="text-2xl font-bold mb-2.5">{key.toUpperCase()}</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {sports.map((sport, index) => (
+                    <div
+                      key={index}
+                      className="relative group overflow-hidden rounded-xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 transition-all duration-500 hover:bg-white/10"
+                    >
+                      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60 opacity-70"></div>
 
-                <div className="relative z-10">
-                  <h3 className="text-2xl font-modern-negra mb-2">
-                    {sport.name}
-                  </h3>
-                  <p className="text-gray-300 mb-1">Venue: {sport.country}</p>
-                  <p className="text-gray-300 mb-3">Location: {sport.detail}</p>
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <span className="text-yellow-400 font-bold">
-                        {sport.price}
-                      </span>
-                      <div className="text-yellow-400 text-xs">
-                        (Up to)
+                      <div className="relative z-10">
+                        <h3 className="text-2xl font-modern-negra mb-2">
+                          {sport.name}
+                        </h3>
+                        <p className="text-gray-300 mb-1">
+                          Venue: {sport.country}
+                        </p>
+                        <p className="text-gray-300 mb-3">
+                          Location: {sport.detail}
+                        </p>
+                        <div className="flex items-center justify-between">
+                          <div>
+                            <span className="text-yellow-400 font-bold">
+                              Price Pool: {sport.price}
+                            </span>
+                            <div className="text-yellow-400 text-xs">
+                              (Up to)
+                            </div>
+                          </div>
+                          <a
+                            href="https://forms.gle/tChC48TeBZ9En16y6"
+                            className="bg-white text-black px-4 py-2 rounded-full text-sm font-bold transform transition-transform duration-300 group-hover:scale-105"
+                          >
+                            Register Now
+                          </a>
+                        </div>
+                      </div>
+
+                      <div className="absolute bottom-0 right-0 w-24 h-24 opacity-20">
+                        <img
+                          src="/images/cocktail-right-leaf.png"
+                          alt=""
+                          className="w-full"
+                        />
                       </div>
                     </div>
-                    <a
-                      href="https://forms.gle/tChC48TeBZ9En16y6"
-                      className="bg-white text-black px-4 py-2 rounded-full text-sm font-bold transform transition-transform duration-300 group-hover:scale-105"
-                    >
-                      Register Now
-                    </a>
-                  </div>
-                </div>
-
-                <div className="absolute bottom-0 right-0 w-24 h-24 opacity-20">
-                  <img
-                    src="/images/cocktail-right-leaf.png"
-                    alt=""
-                    className="w-full"
-                  />
+                  ))}
                 </div>
               </div>
             ))}
           </div>
-          
+
           <div className="text-center mt-8 text-sm text-gray-400">
-            THE AMOUNTS ARE SUBJECT TO CHANGE BASED ON THE NUMBER OF PARTICIPANTS
+            THE AMOUNTS ARE SUBJECT TO CHANGE BASED ON THE NUMBER OF
+            PARTICIPANTS
           </div>
         </div>
       </section>
