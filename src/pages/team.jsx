@@ -152,11 +152,11 @@ const OurTeam = () => {
       },
     ],
 
-    "PCr Team": [
+    "PCr Coordinators": [
       {
         name: "Urvashi",
         contact: "+91 9256564975",
-        role: "PCr Team Member",
+        role: "PCr Coordinator",
         photo: "/images/urvashi.jpeg",
         social: {
           instagram: "https://instagram.com/urvashi",
@@ -167,7 +167,7 @@ const OurTeam = () => {
       {
         name: "Chetna Bhardwaj",
         contact: "+91 9868485470",
-        role: "PCr Team Member",
+        role: "PCr Coordinator",
         photo: "/images/chetna.jpeg",
         social: {
           instagram: "https://instagram.com/chetnabhardwaj",
@@ -178,7 +178,7 @@ const OurTeam = () => {
       {
         name: "Shashi",
         contact: "+91 8708566355",
-        role: "PCr Team Member",
+        role: "PCr Coordinator",
         photo: "/images/shashi.jpg",
         social: {
           instagram: "https://www.instagram.com/kalkal.shashi",
@@ -188,7 +188,7 @@ const OurTeam = () => {
       {
         name: "Praveen Sharma",
         contact: "+91 7231841289",
-        role: "PCr Team Member",
+        role: "PCr Coordinator",
         photo: "/images/praveen.jpg",
         social: {
           instagram: "https://www.instagram.com/ipraveensharma_",
@@ -199,7 +199,7 @@ const OurTeam = () => {
       {
         name: "Nishant Kumar Bainara",
         contact: "+91 7240662081",
-        role: "PCr Team Member",
+        role: "PCr Coordinator",
         photo: "/images/nishant.jpg",
         social: {
           instagram: "https://www.instagram.com/ms_nishant7781",
@@ -211,7 +211,7 @@ const OurTeam = () => {
       {
         name: "Sudhandhu",
         contact: "+91 9354630669",
-        role: "PCr Team Member",
+        role: "PCr Coordinator",
         photo: "/images/sudhanshu.jpeg",
         social: {
           instagram: "https://www.instagram.com/sudh__m",
@@ -220,7 +220,7 @@ const OurTeam = () => {
       {
         name: "Apoorva Bissa",
         contact: "+91 7878363370",
-        role: "PCr Team Member",
+        role: "PCr Coordinator",
         photo: "/images/apoorva.jpg",
         social: {
           instagram: "https://www.instagram.com/bissa_apoorva",
@@ -466,6 +466,11 @@ const OurTeam = () => {
                         <h3 className="text-xl font-bold text-center mb-1 group-hover:text-[#e7d393] transition-colors duration-300">
                           {member.name}
                         </h3>
+                        {member.contact && (
+                          <p className="text-gray-400 text-sm text-center mb-6">
+                            {member.contact}
+                          </p>
+                        )}
                         <p className="text-gray-400 text-sm text-center mb-6">
                           {member.role}
                         </p>
