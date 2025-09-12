@@ -1,35 +1,33 @@
 import { useEffect } from "react";
 
 const Archives = () => {
-  // All photos combined in a single array
   const allImages = [
-    "/images/1.jpg",
-    "/images/2.jpg",
-    "/images/3.jpg",
-    "/images/4.jpg",
-    "/images/5.jpg",
-    "/images/6.jpg",
-    "/images/7.jpg",
-    "/images/8.jpg",
-    "/images/9.jpeg",
-    "/images/10.jpeg",
-    "/images/11.jpeg",
-    "/images/12.jpeg",
-    "/images/13.jpeg",
-    "/images/14.jpeg",
-    "/images/15.jpeg",
-    "/images/16.jpeg",
-    "/images/17.jpeg",
-    "/images/18.jpeg",
-    "/images/19.jpeg",
-    "/images/20.jpeg",
-    "/images/21.jpeg",
-    "/images/22.jpeg",
-    "/images/23.jpeg",
+    "/images/sports/1.webp",
+    "/images/sports/2.webp",
+    "/images/sports/3.webp",
+    "/images/sports/4.webp",
+    "/images/sports/5.webp",
+    "/images/sports/6.webp",
+    "/images/sports/7.webp",
+    "/images/sports/8.webp",
+    "/images/sports/9.webp",
+    "/images/sports/10.webp",
+    "/images/sports/11.webp",
+    "/images/sports/12.webp",
+    "/images/sports/13.webp",
+    "/images/sports/14.webp",
+    "/images/sports/15.webp",
+    "/images/sports/16.webp",
+    "/images/sports/17.webp",
+    "/images/sports/18.webp",
+    "/images/sports/19.webp",
+    "/images/sports/20.webp",
+    "/images/sports/21.webp",
+    "/images/sports/22.webp",
+    "/images/sports/23.webp",
   ];
 
   useEffect(() => {
-    // Add parallax effect to background images
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const backgroundElements = document.querySelectorAll(".parallax-bg");
@@ -48,14 +46,14 @@ const Archives = () => {
       {/* Background decoration elements */}
       <div className="absolute top-0 left-0 w-1/4 opacity-30 parallax-bg z-0">
         <img
-          src="/images/hero-left-leaf.png"
+          src="/images/hero-left-leaf.webp"
           alt="Decorative leaf"
           className="w-full"
         />
       </div>
       <div className="absolute top-0 right-0 w-1/4 opacity-30 parallax-bg z-0">
         <img
-          src="/images/hero-right-leaf.png"
+          src="/images/hero-right-leaf.webp"
           alt="Decorative leaf"
           className="w-full"
         />
@@ -92,7 +90,6 @@ const Archives = () => {
           {/* Modern masonry-style grid */}
           <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6 md:space-y-8">
             {allImages.map((image, index) => {
-              // Calculate height values for aesthetic variety
               const heights = ["40vh", "50vh", "30vh", "45vh", "36vh", "60vh"];
               const height = heights[index % heights.length];
 
@@ -146,7 +143,7 @@ const Archives = () => {
       <div className="absolute bottom-0 left-0 w-full opacity-40 z-0">
         <div className="flex justify-between items-end">
           <img
-            src="/images/footer-left-leaf.png"
+            src="/images/footer-left-leaf.webp"
             alt="Decorative element"
             className="w-1/3 md:w-1/4 opacity-70"
           />
@@ -156,7 +153,7 @@ const Archives = () => {
       {/* Noise overlay */}
       <div className="fixed inset-0 z-[-1] opacity-[0.04] pointer-events-none mix-blend-overlay">
         <img
-          src="/images/noise.png"
+          src="/images/noise.webp"
           alt="Noise texture"
           className="w-full h-full object-cover"
         />

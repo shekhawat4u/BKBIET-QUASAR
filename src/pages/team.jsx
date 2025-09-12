@@ -7,7 +7,7 @@ const OurTeam = () => {
         name: "Nitin Jangir",
         contact: "+91 9414279109",
         role: "Convenor",
-        photo: "/images/nitin.jpeg",
+        photo: "/images/team/nitin.webp",
         social: {
           instagram: "https://www.instagram.com/n_jangir_15",
         },
@@ -15,28 +15,26 @@ const OurTeam = () => {
       {
         name: "Yashashvi Jangid",
         contact: "+91 9950050535",
-        role: "Co - Convenor",
-        photo: "/images/yashashvi.jpg",
+        role: "Convenor",
+        photo: "/images/team/yashashvi.webp",
         social: {
           instagram: "https://www.instagram.com/yashashvie",
-          linkedin: "https://www.linkedin.com/in/yashashvijangid",
         },
       },
       {
         name: "Aman Deg",
         contact: "+91 9314222024",
         role: "Sports Officer",
-        photo: "/images/aman.jpg",
+        photo: "/images/team/aman.webp",
         social: {
           instagram: "https://www.instagram.com/amandeg1",
-          linkedin: "https://www.linkedin.com/in/aman-deg",
         },
       },
       {
         name: "Yash Jangid",
         contact: "+91 9351444977",
         role: "Sports Officer",
-        photo: "/images/yash.jpeg",
+        photo: "/images/team/yash.webp",
         social: {
           instagram: "https://www.instagram.com/jangidyash2782",
         },
@@ -48,27 +46,25 @@ const OurTeam = () => {
         name: "Rohit Godara",
         contact: "+91 8824958885",
         role: "Kabaddi Coordinator",
-        photo: "/images/rohit.jpg",
+        photo: "/images/team/rohit.webp",
         social: {
           instagram: "https://www.instagram.com/rohitgodara345",
-          linkedin: "https://www.linkedin.com/in/rohit-godara-050a96381",
         },
       },
       {
         name: "Shivam Sharma",
         contact: "+91 9549928366",
         role: "Kabaddi Coordinator",
-        photo: "/images/shivam.jpeg",
+        photo: "/images/team/shivam.webp",
         social: {
           instagram: "https://www.instagram.com/shivamsharma7777_",
-          linkedin: ":https://www.linkedin.com/in/shivam-sharma-91123127b",
         },
       },
       {
         name: "Parveen Yadav",
         contact: "+91 9518457402",
         role: "E-Sports Coordinator",
-        photo: "/images/parveen.jpeg",
+        photo: "/images/team/parveen.webp",
         social: {
           instagram: "https://www.instagram.com/parveen__yadv",
         },
@@ -77,27 +73,25 @@ const OurTeam = () => {
         name: "Amit Maan",
         contact: "+91 9358335291",
         role: "Volleyball Coordinator",
-        photo: "/images/amit.jpg",
+        photo: "/images/team/amit.webp",
         social: {
           instagram: "https://www.instagram.com/maan_amit_007",
-          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
         },
       },
       {
-        name: "Harshvardhan Saini",
-        contact: "+91 7891280076",
+        name: "Karan Jangir",
+        contact: "+91 7425050602",
         role: "Football Coordinator",
-        photo: "/images/harsh.jpeg",
+        photo: "/images/team/karan_jangir.webp",
         social: {
-          instagram: "https://www.instagram.com/maan_amit_007",
-          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+          instagram: "https://www.instagram.com/sircuit2.o",
         },
       },
       {
         name: "Aditya Bhomia",
         contact: "+91 7023043828",
         role: "Cricket Coordinator",
-        photo: "/images/aditya.jpeg",
+        photo: "/images/team/aditya.webp",
         social: {
           instagram: "https://www.instagram.com/bhomia_aditya_09",
         },
@@ -106,7 +100,7 @@ const OurTeam = () => {
         name: "Abhishek Saini",
         contact: "+91 9887510221",
         role: "Cricket Coordinator",
-        photo: "/images/abhishek.jpeg",
+        photo: "/images/team/abhishek.webp",
         social: {
           instagram: "https://www.instagram.com/exciusive.abhi",
         },
@@ -115,17 +109,16 @@ const OurTeam = () => {
         name: "Puran",
         contact: "+91 8290848992",
         role: "Basketball Coordinator",
-        photo: "/images/puran.jpg",
+        photo: "/images/team/puran.webp",
         social: {
           instagram: "https://www.instagram.com/puran_joshi_07",
-          linkedin: "https://www.linkedin.com/in/puran-joshi-a697b3307",
         },
       },
       {
         name: "Himanshu",
         contact: "+91 9416490501",
         role: "Badminton Coordinator",
-        photo: "/images/himanshu.jpeg",
+        photo: "/images/team/himanshu.webp",
         social: {
           instagram: "https://www.instagram.com/h.i.m.a.n.s.h.u.1_",
         },
@@ -137,62 +130,52 @@ const OurTeam = () => {
         name: "Urvashi",
         contact: "+91 9256564975",
         role: "PCr Coordinator",
-        photo: "/images/urvashi.jpeg",
+        photo: "/images/team/urvashi.webp",
         social: {
-          instagram: "https://instagram.com/urvashi",
-          linkedin: "https://linkedin.com/in/urvashi",
-          github: "https://github.com/urvashi",
+          instagram: "https://instagram.com/urvashisharma0594",
         },
       },
       {
         name: "Chetna Bhardwaj",
         contact: "+91 9868485470",
         role: "PCr Coordinator",
-        photo: "/images/chetna.jpeg",
+        photo: "/images/team/chetna.webp",
         social: {
-          instagram: "https://instagram.com/chetnabhardwaj",
-          linkedin: "https://linkedin.com/in/chetnabhardwaj",
-          github: "https://github.com/chetnabhardwaj",
+          instagram: "https://instagram.com/sneha_bhardwaaj",
         },
       },
       {
         name: "Shashi",
         contact: "+91 8708566355",
         role: "PCr Coordinator",
-        photo: "/images/shashi.jpg",
+        photo: "/images/team/shashi.webp",
         social: {
           instagram: "https://www.instagram.com/kalkal.shashi",
-          linkedin: "https://linkedin.com/in/shashikalkal",
         },
       },
       {
         name: "Praveen Sharma",
         contact: "+91 7231841289",
         role: "PCr Coordinator",
-        photo: "/images/praveen.jpg",
+        photo: "/images/team/praveen.webp",
         social: {
           instagram: "https://www.instagram.com/ipraveensharma_",
-          linkedin: "https://www.linkedin.com/in/praveen-sharma09",
-          github: "https://github.com/Praveensharma05",
         },
       },
       {
         name: "Nishant Kumar Bainara",
         contact: "+91 7240662081",
         role: "PCr Coordinator",
-        photo: "/images/nishant.jpg",
+        photo: "/images/team/nishant.webp",
         social: {
           instagram: "https://www.instagram.com/ms_nishant7781",
-          linkedin:
-            "https://www.linkedin.com/in/nishant-kumar-bainara-bb91a32aa",
-          github: "https://github.com/NKB7781",
         },
       },
       {
         name: "Sudhandhu",
         contact: "+91 9354630669",
         role: "PCr Coordinator",
-        photo: "/images/sudhanshu.jpeg",
+        photo: "/images/team/sudhanshu.webp",
         social: {
           instagram: "https://www.instagram.com/sudh__m",
         },
@@ -201,10 +184,9 @@ const OurTeam = () => {
         name: "Apoorva Bissa",
         contact: "+91 7878363370",
         role: "PCr Coordinator",
-        photo: "/images/apoorva.jpg",
+        photo: "/images/team/apoorva.webp",
         social: {
           instagram: "https://www.instagram.com/bissa_apoorva",
-          linkedin: "https://linkedin.com/in/apoorva-bissa-38117b355",
         },
       },
     ],
@@ -214,41 +196,34 @@ const OurTeam = () => {
         name: "Lakshy Chauhan",
         contact: "+91 6350142804",
         role: "Event Manager",
-        photo: "/images/lakshy.jpg",
+        photo: "/images/team/lakshy.webp",
         social: {
-          instagram: "https://instagram.com/lakshy",
-          linkedin: "https://linkedin.com/in/lakshy",
-          github: "https://github.com/lakshy",
+          instagram: "https://instagram.com/lakshychauhan_",
         },
       },
       {
         name: "Nitin",
         contact: "+91 8619627761",
         role: "Event Manager",
-        photo: "/images/nitin2.jpeg",
+        photo: "/images/team/nitin2.webp",
         social: {
-          instagram: "https://instagram.com/nitin",
-          linkedin: "https://linkedin.com/in/nitin",
-          github: "https://github.com/nitin",
+          instagram: "https://www.instagram.com/nitinbalwada_18",
         },
       },
       {
         name: "Tanmay",
         contact: "+91 8990617241",
         role: "Event Manager",
-        photo: "/images/tanmay.jpg",
+        photo: "/images/team/tanmay.webp",
         social: {
           instagram: "https://www.instagram.com/tan__y20",
         },
       },
-    ],
-
-    Editor: [
       {
         name: "Pranav",
         contact: "+91 9928180571",
         role: "Editor",
-        photo: "/images/pranav.jpeg",
+        photo: "/images/team/pranav.webp",
         social: {
           instagram: "https://www.instagram.com/prannavvxd",
         },
@@ -259,7 +234,7 @@ const OurTeam = () => {
       {
         name: "Divya Raghav",
         role: "Web Designer & Developer",
-        photo: "/images/divya.jpeg",
+        photo: "/images/team/divya.webp",
         social: {
           linkedin: "https://linkedin.com/in/divyaraghav",
           github: "https://github.com/divyaraghav",
@@ -268,7 +243,7 @@ const OurTeam = () => {
       {
         name: "Harshvardhan Singh Shekhawat",
         role: "Web Designer & Developer",
-        photo: "/images/harsh.jpg",
+        photo: "/images/team/harsh.webp",
         social: {
           instagram: "https://instagram.com/_shekhawat4u_",
           linkedin: "https://linkedin.com/in/shekhawat4u",
@@ -278,7 +253,7 @@ const OurTeam = () => {
       {
         name: "Sumit Singh Rathore",
         role: "Web Designer & Developer",
-        photo: "https://github.com/developer-sumit.png",
+        photo: "https://github.com/developer-sumit.webp",
         social: {
           instagram: "https://instagram.com/__sumit_banna",
           linkedin: "https://linkedin.com/in/sumit-singh-rathore",
@@ -289,7 +264,6 @@ const OurTeam = () => {
   };
 
   useEffect(() => {
-    // Add parallax effect to background images
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const backgroundElements = document.querySelectorAll(".parallax-bg");
@@ -308,14 +282,14 @@ const OurTeam = () => {
       {/* Background decoration elements */}
       <div className="absolute top-0 left-0 w-1/4 opacity-30 parallax-bg z-0">
         <img
-          src="/images/hero-left-leaf.png"
+          src="/images/hero-left-leaf.webp"
           alt="Decorative leaf"
           className="w-full"
         />
       </div>
       <div className="absolute top-0 right-0 w-1/4 opacity-30 parallax-bg z-0">
         <img
-          src="/images/hero-right-leaf.png"
+          src="/images/hero-right-leaf.webp"
           alt="Decorative leaf"
           className="w-full"
         />
@@ -435,7 +409,7 @@ const OurTeam = () => {
                         {/* Subtle background pattern */}
                         <div className="absolute inset-0 opacity-5 pointer-events-none">
                           <img
-                            src="/images/noise.png"
+                            src="/images/noise.webp"
                             alt=""
                             className="w-full h-full object-cover"
                           />
@@ -486,7 +460,7 @@ const OurTeam = () => {
                               aria-label={`${member.name}'s Instagram`}
                             >
                               <img
-                                src="/images/insta.png"
+                                src="/images/assets/insta.webp"
                                 alt="Instagram"
                                 className="w-4 h-4"
                               />
@@ -574,7 +548,7 @@ const OurTeam = () => {
       <div className="absolute bottom-0 left-0 w-full opacity-40 z-0">
         <div className="flex justify-between items-end">
           <img
-            src="/images/footer-left-leaf.png"
+            src="/images/footer-left-leaf.webp"
             alt="Decorative element"
             className="w-1/3 md:w-1/4 opacity-70"
           />
@@ -584,7 +558,7 @@ const OurTeam = () => {
       {/* Noise overlay */}
       <div className="fixed inset-0 z-[-1] opacity-[0.04] pointer-events-none mix-blend-overlay">
         <img
-          src="/images/noise.png"
+          src="/images/noise.webp"
           alt="Noise texture"
           className="w-full h-full object-cover"
         />

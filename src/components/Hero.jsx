@@ -1,14 +1,8 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
-// import { useRef } from "react";
-// import { useMediaQuery } from "react-responsive";
 
 const Hero = () => {
-  // const videoRef = useRef();
-
-  // const isMobile = useMediaQuery({ maxWidth: 767 });
-
   useGSAP(() => {
     const heroSplit = new SplitText(".title", {
       type: "chars, words",
@@ -18,7 +12,6 @@ const Hero = () => {
       type: "lines",
     });
 
-    // Apply text-gradient class once before animating
     heroSplit.chars.forEach((char) => char.classList.add("text-gradient"));
 
     gsap.from(heroSplit.chars, {
@@ -49,43 +42,12 @@ const Hero = () => {
       .to(".right-leaf", { y: 200 }, 0)
       .to(".left-leaf", { y: -200 }, 0)
       .to(".arrow", { y: 100 }, 0);
-
-    // const startValue = isMobile ? "top 50%" : "center 60%";
-    // const endValue = isMobile ? "120% top" : "bottom top";
-
-    // let tl = gsap.timeline({
-    //   scrollTrigger: {
-    //     trigger: "video",
-    //     start: startValue,
-    //     end: endValue,
-    //     scrub: true,
-    //     pin: true,
-    //   },
-    // });
-
-    // videoRef.current.onloadedmetadata = () => {
-    //   tl.to(videoRef.current, {
-    //     currentTime: videoRef.current.duration,
-    //   });
-    // };
   }, []);
 
   return (
     <>
       <section id="hero" className="noisy">
         <h1 className="title">QUASAR</h1>
-
-        {/* <img
-          src="/images/hero-left-leaf.png"
-          alt="left-leaf"
-          className="left-leaf"
-        />
-        <img
-          src="/images/hero-right-leaf.png"
-          alt="right-leaf"
-          className="right-leaf"
-        /> */}
-
         <div className="body">
           <div className="content z-[20]">
             <div className="space-y-5 hidden md:block">
@@ -116,26 +78,16 @@ const Hero = () => {
 
       <div className="w-full max-w-screen overflow-hidden top-1/2 max-md:top-[65%] absolute md:items-center justify-center flex">
         <img
-          src="/images/ice-dragon.png"
+          src="/images/assets/ice-dragon.webp"
           alt="ice-dragon"
           className="w-[350px] max-md:w-[500px] aspect-square"
         />
         <img
-          src="/images/fire-dragon.png"
+          src="/images/assets/fire-dragon.webp"
           alt="fire-dragon"
           className="w-[350px] max-md:w-[500px] aspect-square"
         />
       </div>
-
-      {/* <div className="video absolute inset-0">
-        <video
-          // ref={videoRef}
-          muted
-          playsInline
-          preload="auto"
-          src="/videos/output.mp4"
-        />
-      </div> */}
     </>
   );
 };

@@ -22,7 +22,6 @@ const AboutUs = () => {
       delay: 1,
     });
 
-    // Add parallax effect to background images
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const backgroundElements = document.querySelectorAll(".parallax-bg");
@@ -41,14 +40,14 @@ const AboutUs = () => {
       {/* Background decoration elements */}
       <div className="absolute top-0 left-0 w-1/4 opacity-30 parallax-bg z-0">
         <img
-          src="/images/hero-left-leaf.png"
+          src="/images/assets/hero-left-leaf.webp"
           alt="Decorative leaf"
           className="w-full"
         />
       </div>
       <div className="absolute top-0 right-0 w-1/4 opacity-30 parallax-bg z-0">
         <img
-          src="/images/hero-right-leaf.png"
+          src="/images/assets/hero-right-leaf.webp"
           alt="Decorative leaf"
           className="w-full"
         />
@@ -57,14 +56,14 @@ const AboutUs = () => {
       {/* Floating decoration elements */}
       <div className="absolute top-1/4 left-10 w-20 h-20 opacity-20 parallax-bg z-0 animate-float-slow">
         <img
-          src="/images/cocktail-left-leaf.png"
+          src="/images/assets/cocktail-left-leaf.webp"
           alt=""
           className="w-full rotate-45"
         />
       </div>
       <div className="absolute top-1/3 right-10 w-16 h-16 opacity-20 parallax-bg z-0 animate-float-medium">
         <img
-          src="/images/cocktail-right-leaf.png"
+          src="/images/assets/cocktail-right-leaf.webp"
           alt=""
           className="w-full -rotate-45"
         />
@@ -96,13 +95,13 @@ const AboutUs = () => {
               </div>
 
               <p className="about-subtitle max-w-4xl mx-auto text-lg md:text-xl text-gray-300 leading-relaxed">
-                QUASAR is the annual sports fest of BKBIET Pilani, Pilani, bringing
-                together students, athletes, and sports enthusiasts from across
-                the region. Our mission is to foster sportsmanship, teamwork,
-                and healthy competition through a diverse range of events and
-                activities. Whether you are a participant or a spectator, QUASAR
-                promises an unforgettable experience filled with excitement,
-                camaraderie, and the spirit of sports.
+                QUASAR is the annual sports fest of BKBIET Pilani, Pilani,
+                bringing together students, athletes, and sports enthusiasts
+                from across the region. Our mission is to foster sportsmanship,
+                teamwork, and healthy competition through a diverse range of
+                events and activities. Whether you are a participant or a
+                spectator, QUASAR promises an unforgettable experience filled
+                with excitement, camaraderie, and the spirit of sports.
               </p>
 
               <div className="mt-12">
@@ -131,9 +130,9 @@ const AboutUs = () => {
               <div className="w-full md:w-1/2 relative">
                 <div className="absolute -top-5 -left-5 w-20 h-20 border-t-2 border-l-2 border-[#e7d393] opacity-60"></div>
                 <div className="absolute -bottom-5 -right-5 w-20 h-20 border-b-2 border-r-2 border-[#e7d393] opacity-60"></div>
-                <img 
-                  src="/images/logo1.png" 
-                  alt="QUASAR History" 
+                <img
+                  src="/images/favicon.webp"
+                  alt="QUASAR History"
                   className="w-full"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-black/40 backdrop-blur-sm p-4 rounded border border-[#e7d393]/20">
@@ -142,14 +141,36 @@ const AboutUs = () => {
               </div>
               <div className="w-full md:w-1/2">
                 <div className="mb-6">
-                  <span className="inline-block text-sm text-[#e7d393] tracking-[0.3em] uppercase mb-2">Our Legacy</span>
-                  <h2 className="text-4xl font-modern-negra mb-6">THE HISTORY OF QUASAR</h2>
+                  <span className="inline-block text-sm text-[#e7d393] tracking-[0.3em] uppercase mb-2">
+                    Our Legacy
+                  </span>
+                  <h2 className="text-4xl font-modern-negra mb-6">
+                    THE HISTORY OF QUASAR
+                  </h2>
                   <div className="w-24 h-1 bg-gradient-to-r from-[#e7d393] to-transparent"></div>
                 </div>
                 <div className="space-y-6 text-gray-300">
-                  <p>Born from a vision to unite sports enthusiasts across the region, QUASAR first illuminated the campus of BKBIET Pilani, Pilani in 2012. What began as a modest sporting event has evolved into one of Rajasthan's premier collegiate sports festivals.</p>
-                  <p>With each passing year, QUASAR has expanded its horizons, introducing new events, attracting more participants, and raising the standards of competition. From traditional sports like cricket and football to modern athletic challenges, QUASAR has become a platform where talent meets opportunity.</p>
-                  <p>Today, QUASAR stands as a testament to BKBIET Pilani's commitment to fostering physical excellence alongside academic achievements, bringing together over 1000 participants from 30+ colleges annually.</p>
+                  <p>
+                    Born from a vision to unite sports enthusiasts across the
+                    region, QUASAR first illuminated the campus of BKBIET
+                    Pilani, Pilani in 2012. What began as a modest sporting
+                    event has evolved into one of Rajasthan's premier collegiate
+                    sports festivals.
+                  </p>
+                  <p>
+                    With each passing year, QUASAR has expanded its horizons,
+                    introducing new events, attracting more participants, and
+                    raising the standards of competition. From traditional
+                    sports like cricket and football to modern athletic
+                    challenges, QUASAR has become a platform where talent meets
+                    opportunity.
+                  </p>
+                  <p>
+                    Today, QUASAR stands as a testament to BKBIET Pilani's
+                    commitment to fostering physical excellence alongside
+                    academic achievements, bringing together over 1000
+                    participants from 30+ colleges annually.
+                  </p>
                 </div>
               </div>
             </div>
@@ -160,11 +181,13 @@ const AboutUs = () => {
         <section className="relative py-24 px-6 md:px-20 z-10 noisy">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <span className="inline-block text-sm text-[#e7d393] tracking-[0.3em] uppercase mb-2">Our Foundation</span>
+              <span className="inline-block text-sm text-[#e7d393] tracking-[0.3em] uppercase mb-2">
+                Our Foundation
+              </span>
               <h2 className="text-4xl font-modern-negra mb-6">QUASAR VALUES</h2>
               <div className="w-48 h-1 bg-gradient-to-r from-transparent via-[#e7d393] to-transparent mx-auto"></div>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Value 1 */}
               <div className="bg-black/60 p-8 rounded-lg border border-[#e7d393]/10 backdrop-blur-sm hover:border-[#e7d393]/30 transition-all duration-300 group">
@@ -173,10 +196,16 @@ const AboutUs = () => {
                     <div className="w-6 h-6 rounded-full bg-[#e7d393]/30"></div>
                   </div>
                 </div>
-                <h3 className="text-2xl font-semibold mb-4 text-[#e7d393]">Excellence</h3>
-                <p className="text-gray-300">We strive for excellence in all aspects of QUASAR, from organization to competition, pushing boundaries and setting new standards.</p>
+                <h3 className="text-2xl font-semibold mb-4 text-[#e7d393]">
+                  Excellence
+                </h3>
+                <p className="text-gray-300">
+                  We strive for excellence in all aspects of QUASAR, from
+                  organization to competition, pushing boundaries and setting
+                  new standards.
+                </p>
               </div>
-              
+
               {/* Value 2 */}
               <div className="bg-black/60 p-8 rounded-lg border border-[#e7d393]/10 backdrop-blur-sm hover:border-[#e7d393]/30 transition-all duration-300 group">
                 <div className="w-16 h-16 rounded-full bg-[#e7d393]/10 flex items-center justify-center mb-6 group-hover:bg-[#e7d393]/20 transition-all duration-300">
@@ -184,10 +213,16 @@ const AboutUs = () => {
                     <div className="w-6 h-6 rounded-full bg-[#e7d393]/30"></div>
                   </div>
                 </div>
-                <h3 className="text-2xl font-semibold mb-4 text-[#e7d393]">Inclusivity</h3>
-                <p className="text-gray-300">QUASAR welcomes all participants regardless of skill level, promoting a diverse and inclusive environment where everyone can thrive.</p>
+                <h3 className="text-2xl font-semibold mb-4 text-[#e7d393]">
+                  Inclusivity
+                </h3>
+                <p className="text-gray-300">
+                  QUASAR welcomes all participants regardless of skill level,
+                  promoting a diverse and inclusive environment where everyone
+                  can thrive.
+                </p>
               </div>
-              
+
               {/* Value 3 */}
               <div className="bg-black/60 p-8 rounded-lg border border-[#e7d393]/10 backdrop-blur-sm hover:border-[#e7d393]/30 transition-all duration-300 group">
                 <div className="w-16 h-16 rounded-full bg-[#e7d393]/10 flex items-center justify-center mb-6 group-hover:bg-[#e7d393]/20 transition-all duration-300">
@@ -195,8 +230,13 @@ const AboutUs = () => {
                     <div className="w-6 h-6 rounded-full bg-[#e7d393]/30"></div>
                   </div>
                 </div>
-                <h3 className="text-2xl font-semibold mb-4 text-[#e7d393]">Sportsmanship</h3>
-                <p className="text-gray-300">We believe in fair play, respect for opponents, and gracious conduct whether in victory or defeat.</p>
+                <h3 className="text-2xl font-semibold mb-4 text-[#e7d393]">
+                  Sportsmanship
+                </h3>
+                <p className="text-gray-300">
+                  We believe in fair play, respect for opponents, and gracious
+                  conduct whether in victory or defeat.
+                </p>
               </div>
             </div>
           </div>
@@ -206,34 +246,65 @@ const AboutUs = () => {
         <section className="relative py-24 px-6 md:px-20 z-10 noisy">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <span className="inline-block text-sm text-[#e7d393] tracking-[0.3em] uppercase mb-2">Questions</span>
-              <h2 className="text-4xl font-modern-negra mb-6">FREQUENTLY ASKED QUESTIONS</h2>
+              <span className="inline-block text-sm text-[#e7d393] tracking-[0.3em] uppercase mb-2">
+                Questions
+              </span>
+              <h2 className="text-4xl font-modern-negra mb-6">
+                FREQUENTLY ASKED QUESTIONS
+              </h2>
               <div className="w-48 h-1 bg-gradient-to-r from-transparent via-[#e7d393] to-transparent mx-auto"></div>
             </div>
-            
+
             <div className="max-w-3xl mx-auto space-y-8">
               {/* FAQ Item 1 */}
               <div className="bg-black/60 p-6 rounded-lg border border-[#e7d393]/10 backdrop-blur-sm">
-                <h3 className="text-xl font-semibold mb-3 text-[#e7d393]">How can I register for QUASAR?</h3>
-                <p className="text-gray-300">Registration is available through our online portal. Click on the "Register Now" button at the top of the page to fill out the registration form. Team registrations should be completed by the team captain.</p>
+                <h3 className="text-xl font-semibold mb-3 text-[#e7d393]">
+                  How can I register for QUASAR?
+                </h3>
+                <p className="text-gray-300">
+                  Registration is available through our online portal. Click on
+                  the "Register Now" button at the top of the page to fill out
+                  the registration form. Team registrations should be completed
+                  by the team captain.
+                </p>
               </div>
-              
+
               {/* FAQ Item 2 */}
               <div className="bg-black/60 p-6 rounded-lg border border-[#e7d393]/10 backdrop-blur-sm">
-                <h3 className="text-xl font-semibold mb-3 text-[#e7d393]">What sports are included in QUASAR?</h3>
-                <p className="text-gray-300">QUASAR features a wide range of sports including cricket, football, basketball, volleyball, badminton, table tennis, chess, athletics, and more. The full list of events is available on our Events page.</p>
+                <h3 className="text-xl font-semibold mb-3 text-[#e7d393]">
+                  What sports are included in QUASAR?
+                </h3>
+                <p className="text-gray-300">
+                  QUASAR features a wide range of sports including cricket,
+                  football, basketball, volleyball, badminton, table tennis,
+                  chess, athletics, and more. The full list of events is
+                  available on our Events page.
+                </p>
               </div>
-              
+
               {/* FAQ Item 3 */}
               <div className="bg-black/60 p-6 rounded-lg border border-[#e7d393]/10 backdrop-blur-sm">
-                <h3 className="text-xl font-semibold mb-3 text-[#e7d393]">Is accommodation provided for participants?</h3>
-                <p className="text-gray-300">Yes, accommodation is provided for participants from other colleges on a first-come, first-served basis. You can select the accommodation option during registration. A nominal fee applies for the duration of the fest.</p>
+                <h3 className="text-xl font-semibold mb-3 text-[#e7d393]">
+                  Is accommodation provided for participants?
+                </h3>
+                <p className="text-gray-300">
+                  Yes, accommodation is provided for participants from other
+                  colleges on a first-come, first-served basis. You can select
+                  the accommodation option during registration. A nominal fee
+                  applies for the duration of the fest.
+                </p>
               </div>
-              
+
               {/* FAQ Item 4 */}
               <div className="bg-black/60 p-6 rounded-lg border border-[#e7d393]/10 backdrop-blur-sm">
-                <h3 className="text-xl font-semibold mb-3 text-[#e7d393]">What is the prize pool for competitions?</h3>
-                <p className="text-gray-300">QUASAR offers attractive cash prizes and trophies across all sporting events. The total prize pool exceeds ₹3,00,000, with individual event prizes detailed on the Events page.</p>
+                <h3 className="text-xl font-semibold mb-3 text-[#e7d393]">
+                  What is the prize pool for competitions?
+                </h3>
+                <p className="text-gray-300">
+                  QUASAR offers attractive cash prizes and trophies across all
+                  sporting events. The total prize pool exceeds ₹3,00,000, with
+                  individual event prizes detailed on the Events page.
+                </p>
               </div>
             </div>
           </div>
@@ -245,15 +316,27 @@ const AboutUs = () => {
             <div className="bg-gradient-to-r from-black to-[#191919] p-12 rounded-lg border border-[#e7d393]/20 text-center relative overflow-hidden">
               {/* Decorative elements */}
               <div className="absolute top-0 left-0 w-40 h-40 opacity-10">
-                <img src="/images/cocktail-left-leaf.png" alt="" className="w-full" />
+                <img
+                  src="/images/assets/cocktail-left-leaf.webp"
+                  alt=""
+                  className="w-full"
+                />
               </div>
               <div className="absolute bottom-0 right-0 w-40 h-40 opacity-10">
-                <img src="/images/cocktail-right-leaf.png" alt="" className="w-full" />
+                <img
+                  src="/images/assets/cocktail-right-leaf.webp"
+                  alt=""
+                  className="w-full"
+                />
               </div>
-              
-              <h2 className="text-4xl md:text-5xl font-modern-negra mb-6 text-[#e7d393]">JOIN THE QUASAR EXPERIENCE</h2>
+
+              <h2 className="text-4xl md:text-5xl font-modern-negra mb-6 text-[#e7d393]">
+                JOIN THE QUASAR EXPERIENCE
+              </h2>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10">
-                Be part of something extraordinary. Whether as a participant, volunteer, or spectator, QUASAR 2025 awaits you with unforgettable moments and lifetime memories.
+                Be part of something extraordinary. Whether as a participant,
+                volunteer, or spectator, QUASAR 2025 awaits you with
+                unforgettable moments and lifetime memories.
               </p>
               <div className="flex flex-col md:flex-row gap-6 justify-center">
                 <a

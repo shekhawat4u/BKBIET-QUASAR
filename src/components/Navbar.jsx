@@ -8,17 +8,14 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  // Toggle mobile menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Close menu when user clicks on a link
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
 
-  // Add scroll effect
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -63,14 +60,14 @@ const Navbar = () => {
       <div>
         <a href="/" className="flex items-center gap-3 z-20">
           <img
-            src="/images/BKBIET.png"
+            src="/images/assets/BKBIET.webp"
             className="w-10 h-10 rounded-full border-2 border-[#D6C3A1] bg-white"
             alt="BKBIET Pilani logo"
           />
 
           <p>QUASAR</p>
           <img
-            src="/images/logo1.png"
+            src="/images/favicon.webp"
             className="w-10 h-10"
             alt="QUASAR logo"
           />

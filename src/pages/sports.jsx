@@ -5,7 +5,6 @@ import { maleSportsLists, femaleSportsLists } from "../../constants/index.js";
 
 const Sports = () => {
   useEffect(() => {
-    // Animation for the title text
     const heroSplit = new SplitText(".sports-title", { type: "chars, words" });
     const paragraphSplit = new SplitText(".sports-subtitle", { type: "lines" });
 
@@ -27,7 +26,6 @@ const Sports = () => {
       delay: 1,
     });
 
-    // Add parallax effect to background images
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const backgroundElements = document.querySelectorAll(".parallax-bg");
@@ -41,7 +39,6 @@ const Sports = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Get sports from prize pool only
   const prizePoolSports = {
     boys: maleSportsLists,
     girls: femaleSportsLists,
@@ -52,14 +49,14 @@ const Sports = () => {
       {/* Background decoration elements */}
       <div className="absolute top-0 left-0 w-1/4 opacity-30 parallax-bg z-0">
         <img
-          src="/images/hero-left-leaf.png"
+          src="/images/assets/hero-left-leaf.webp"
           alt="Decorative leaf"
           className="w-full"
         />
       </div>
       <div className="absolute top-0 right-0 w-1/4 opacity-30 parallax-bg z-0">
         <img
-          src="/images/hero-right-leaf.png"
+          src="/images/assets/hero-right-leaf.webp"
           alt="Decorative leaf"
           className="w-full"
         />
@@ -68,14 +65,14 @@ const Sports = () => {
       {/* Floating decoration elements */}
       <div className="absolute top-1/4 left-10 w-20 h-20 opacity-20 parallax-bg z-0 animate-float-slow">
         <img
-          src="/images/cocktail-left-leaf.png"
+          src="/images/assets/cocktail-left-leaf.webp"
           alt=""
           className="w-full rotate-45"
         />
       </div>
       <div className="absolute top-1/3 right-10 w-16 h-16 opacity-20 parallax-bg z-0 animate-float-medium">
         <img
-          src="/images/cocktail-right-leaf.png"
+          src="/images/assets/cocktail-right-leaf.webp"
           alt=""
           className="w-full -rotate-45"
         />
@@ -139,7 +136,7 @@ const Sports = () => {
 
                       <div className="absolute bottom-0 right-0 w-24 h-24 opacity-20">
                         <img
-                          src="/images/cocktail-right-leaf.png"
+                          src="/images/assets/cocktail-right-leaf.webp"
                           alt=""
                           className="w-full"
                         />
@@ -164,14 +161,14 @@ const Sports = () => {
           <div className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-10 overflow-hidden">
             <div className="absolute top-0 left-0 w-32 h-32 opacity-20">
               <img
-                src="/images/cocktail-left-leaf.png"
+                src="/images/assets/cocktail-left-leaf.webp"
                 alt=""
                 className="w-full"
               />
             </div>
             <div className="absolute bottom-0 right-0 w-32 h-32 opacity-20">
               <img
-                src="/images/cocktail-right-leaf.png"
+                src="/images/assets/cocktail-right-leaf.webp"
                 alt=""
                 className="w-full"
               />

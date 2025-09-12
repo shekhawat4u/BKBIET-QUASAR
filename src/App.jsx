@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
-import Menu from "./components/Menu.jsx";
 import Contact from "./components/Contact.jsx";
 import PrizePool from "./components/PrizePool.jsx";
 import IntroVideo from "./components/IntroVideo.jsx";
@@ -34,7 +33,7 @@ const App = () => {
   return (
     <Router>
       {showIntro && <IntroVideo onVideoEnd={handleVideoEnd} />}
-      
+
       {/* Only render the main content after intro video ends or is skipped */}
       {(!showIntro || contentLoaded) && (
         <>
@@ -47,8 +46,6 @@ const App = () => {
                   <Hero />
                   <PrizePool />
                   <About />
-                  {/* <Art /> */}
-                  <Menu />
                   <Contact />
                 </>
               }

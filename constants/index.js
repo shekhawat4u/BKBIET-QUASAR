@@ -122,8 +122,8 @@ const openingHours = [
 const socials = [
   {
     name: "Instagram",
-    icon: "/images/insta.png",
-    url: "https://www.instagram.com/BKBIET Pilaniquasar",
+    icon: "/images/assets/insta.webp",
+    url: "https://www.instagram.com/bkbietquaar",
   },
 ];
 
@@ -131,7 +131,7 @@ const allCocktails = [
   {
     id: 1,
     name: "BasketBall",
-    image: "/images/1.jpg",
+    image: "/images/sports/1.webp",
     title: "Basketball: Fast-Paced Action",
     description:
       "Dribble, shoot, and score! Join the basketball tournament and showcase your skills on the court. Teamwork and strategy lead to victory at QUASAR.",
@@ -139,7 +139,7 @@ const allCocktails = [
   {
     id: 2,
     name: "Football",
-    image: "/images/2.jpg",
+    image: "/images/sports/2.webp",
     title: "Football: The Beautiful Game",
     description:
       "Compete in the football league and experience the thrill of the game. Precision passes, powerful shots, and teamwork define this event at QUASAR.",
@@ -147,7 +147,7 @@ const allCocktails = [
   {
     id: 3,
     name: "Kabaddi",
-    image: "/images/3.jpg",
+    image: "/images/sports/3.webp",
     title: "Kabaddi: Strength & Strategy",
     description:
       "Enter the kabaddi arena and test your strength, agility, and tactics. Traditional sport meets fierce competition at QUASAR.",
@@ -155,7 +155,7 @@ const allCocktails = [
   {
     id: 4,
     name: "Volleyball",
-    image: "/images/5.jpg",
+    image: "/images/sports/5.webp",
     title: "Volleyball: Spike to Win",
     description:
       "Serve, block, and spike your way to the top in the volleyball showdown. Join the action and aim for glory at QUASAR.",
