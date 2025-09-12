@@ -282,14 +282,14 @@ const OurTeam = () => {
       {/* Background decoration elements */}
       <div className="absolute top-0 left-0 w-1/4 opacity-30 parallax-bg z-0">
         <img
-          src="/images/hero-left-leaf.webp"
+          src="/images/assets/hero-left-leaf.webp"
           alt="Decorative leaf"
           className="w-full"
         />
       </div>
       <div className="absolute top-0 right-0 w-1/4 opacity-30 parallax-bg z-0">
         <img
-          src="/images/hero-right-leaf.webp"
+          src="/images/assets/hero-right-leaf.webp"
           alt="Decorative leaf"
           className="w-full"
         />

@@ -50,7 +50,7 @@ const Hero = () => {
         <h1 className="title">QUASAR</h1>
         <div className="body">
           <div className="content z-[20]">
-            <div className="space-y-5 hidden md:block">
+            <div className="space-y-1.5 hidden md:block">
               <p>Annual Sports Fest of BKBIET, Pilani</p>
               <p className="subtitle">
                 The Game Of <br /> Ice And Fire
@@ -80,12 +80,12 @@ const Hero = () => {
         <img
           src="/images/assets/ice-dragon.webp"
           alt="ice-dragon"
-          className="w-[350px] max-md:w-[500px] aspect-square"
+          className="w-[400px] max-md:w-[500px] aspect-square"
         />
         <img
           src="/images/assets/fire-dragon.webp"
           alt="fire-dragon"
-          className="w-[350px] max-md:w-[500px] aspect-square"
+          className="w-[400px] max-md:w-[500px] aspect-square"
         />
       </div>
     </>
