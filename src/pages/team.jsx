@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const OurTeam = () => {
   const teamData = {
-    Convenors: [
+    Organizers: [
       {
         name: "Nitin Jangir",
         contact: "+91 9414279109",

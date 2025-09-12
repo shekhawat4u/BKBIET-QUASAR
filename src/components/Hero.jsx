@@ -114,7 +114,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <div className="w-full top-1/2 max-md:top-[65%] absolute md:items-center justify-center flex">
+      <div className="w-full max-w-screen overflow-hidden top-1/2 max-md:top-[65%] absolute md:items-center justify-center flex">
         <img
           src="/images/ice-dragon.png"
           alt="ice-dragon"
