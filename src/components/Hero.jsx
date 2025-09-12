@@ -87,9 +87,7 @@ const Hero = () => {
         /> */}
 
         <div className="body">
-          {/* <img src="/images/arrow.png" alt="arrow" className="arrow" /> */}
-
-          <div className="content">
+          <div className="content z-[20]">
             <div className="space-y-5 hidden md:block">
               <p>Annual Sports Fest of BKBIET, Pilani</p>
               <p className="subtitle">
@@ -101,8 +99,9 @@ const Hero = () => {
               <p className="subtitle">
                 This fest is more than a contest of skills - it is a proving
                 ground where champions are forged.
-				<br />
-				Here, victory is not merely about a score, but about leaving behind a legacy worthy of the throne.
+                <br />
+                Here, victory is not merely about a score, but about leaving
+                behind a legacy worthy of the throne.
               </p>
               <a
                 href="https://forms.gle/tChC48TeBZ9En16y6"
@@ -114,6 +113,19 @@ const Hero = () => {
           </div>
         </div>
       </section>
+
+      <div className="w-full top-1/2 max-md:top-[65%] absolute md:items-center justify-center flex">
+        <img
+          src="/images/ice-dragon.png"
+          alt="ice-dragon"
+          className="w-[350px] max-md:w-[500px] aspect-square"
+        />
+        <img
+          src="/images/fire-dragon.png"
+          alt="fire-dragon"
+          className="w-[350px] max-md:w-[500px] aspect-square"
+        />
+      </div>
 
       {/* <div className="video absolute inset-0">
         <video

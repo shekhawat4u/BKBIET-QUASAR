@@ -86,21 +86,6 @@ const femaleSportsLists = [
     country: "Sports Complex",
     detail: "BKBIET Pilani",
     price: "₹6,000",
-  }
-];
-
-const profileLists = [
-  {
-    imgPath: "/images/profile1.png",
-  },
-  {
-    imgPath: "/images/profile2.png",
-  },
-  {
-    imgPath: "/images/profile3.png",
-  },
-  {
-    imgPath: "/images/profile4.png",
   },
 ];
 
@@ -139,7 +124,7 @@ const socials = [
     name: "Instagram",
     icon: "/images/insta.png",
     url: "https://www.instagram.com/BKBIET Pilaniquasar",
-  }
+  },
 ];
 
 const allCocktails = [
@@ -181,7 +166,6 @@ export {
   navLinks,
   maleSportsLists,
   femaleSportsLists,
-  profileLists,
   featureLists,
   goodLists,
   openingHours,

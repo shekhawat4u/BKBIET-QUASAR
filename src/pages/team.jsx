@@ -25,7 +25,7 @@ const OurTeam = () => {
       {
         name: "Aman Deg",
         contact: "+91 9314222024",
-        role:"Sports Officer",
+        role: "Sports Officer",
         photo: "/images/aman.jpg",
         social: {
           instagram: "https://www.instagram.com/amandeg1",
@@ -44,26 +44,6 @@ const OurTeam = () => {
     ],
 
     "Sports Coordinators": [
-      {
-        name: "Nitin",
-        contact: "+91 8619627761",
-        role: "Sports Officer",
-        photo: "/images/nitin2.jpeg",
-        social: {
-          instagram: "https://instagram.com/nitin",
-          linkedin: "https://linkedin.com/in/nitin",
-          github: "https://github.com/nitin",
-        },
-      },
-      {
-        name: "Tanmay",
-        contact: "+91 8990617241",
-        role: "Sports Officer",
-        photo: "/images/tanmay.jpg",
-        social: {
-          instagram: "https://www.instagram.com/tan__y20",
-        },
-      },
       {
         name: "Rohit Godara",
         contact: "+91 8824958885",
@@ -137,8 +117,8 @@ const OurTeam = () => {
         role: "Basketball Coordinator",
         photo: "/images/puran.jpg",
         social: {
-          instagram: "https://www.instagram.com/maan_amit_007",
-          linkedin: "https://www.linkedin.com/in/amit-maan-3073b3313",
+          instagram: "https://www.instagram.com/puran_joshi_07",
+          linkedin: "https://www.linkedin.com/in/puran-joshi-a697b3307",
         },
       },
       {
@@ -239,6 +219,26 @@ const OurTeam = () => {
           instagram: "https://instagram.com/lakshy",
           linkedin: "https://linkedin.com/in/lakshy",
           github: "https://github.com/lakshy",
+        },
+      },
+      {
+        name: "Nitin",
+        contact: "+91 8619627761",
+        role: "Event Manager",
+        photo: "/images/nitin2.jpeg",
+        social: {
+          instagram: "https://instagram.com/nitin",
+          linkedin: "https://linkedin.com/in/nitin",
+          github: "https://github.com/nitin",
+        },
+      },
+      {
+        name: "Tanmay",
+        contact: "+91 8990617241",
+        role: "Event Manager",
+        photo: "/images/tanmay.jpg",
+        social: {
+          instagram: "https://www.instagram.com/tan__y20",
         },
       },
     ],
