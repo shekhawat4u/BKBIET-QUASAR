@@ -21,6 +21,18 @@ const OurTeam = () => {
           instagram: "https://www.instagram.com/yashashvie",
         },
       },
+    ],
+
+    "Sports Officers": [
+      {
+        name: "Nishant Kumar Bainara",
+        contact: "+91 7240662081",
+        role: "Sports Officer",
+        photo: "/images/team/nishant.webp",
+        social: {
+          instagram: "https://www.instagram.com/ms_nishant7781",
+        },
+      },
       {
         name: "Aman Deg",
         contact: "+91 9314222024",
@@ -41,157 +53,7 @@ const OurTeam = () => {
       },
     ],
 
-    "Sports Coordinators": [
-      {
-        name: "Rohit Godara",
-        contact: "+91 8824958885",
-        role: "Kabaddi Coordinator",
-        photo: "/images/team/rohit.webp",
-        social: {
-          instagram: "https://www.instagram.com/rohitgodara345",
-        },
-      },
-      {
-        name: "Shivam Sharma",
-        contact: "+91 9549928366",
-        role: "Kabaddi Coordinator",
-        photo: "/images/team/shivam.webp",
-        social: {
-          instagram: "https://www.instagram.com/shivamsharma7777_",
-        },
-      },
-      {
-        name: "Parveen Yadav",
-        contact: "+91 9518457402",
-        role: "E-Sports Coordinator",
-        photo: "/images/team/parveen.webp",
-        social: {
-          instagram: "https://www.instagram.com/parveen__yadv",
-        },
-      },
-      {
-        name: "Amit Maan",
-        contact: "+91 9358335291",
-        role: "Volleyball Coordinator",
-        photo: "/images/team/amit.webp",
-        social: {
-          instagram: "https://www.instagram.com/maan_amit_007",
-        },
-      },
-      {
-        name: "Karan Jangir",
-        contact: "+91 7425050602",
-        role: "Football Coordinator",
-        photo: "/images/team/karan_jangir.webp",
-        social: {
-          instagram: "https://www.instagram.com/sircuit2.o",
-        },
-      },
-      {
-        name: "Aditya Bhomia",
-        contact: "+91 7023043828",
-        role: "Cricket Coordinator",
-        photo: "/images/team/aditya.webp",
-        social: {
-          instagram: "https://www.instagram.com/bhomia_aditya_09",
-        },
-      },
-      {
-        name: "Abhishek Saini",
-        contact: "+91 9887510221",
-        role: "Cricket Coordinator",
-        photo: "/images/team/abhishek.webp",
-        social: {
-          instagram: "https://www.instagram.com/exciusive.abhi",
-        },
-      },
-      {
-        name: "Puran",
-        contact: "+91 8290848992",
-        role: "Basketball Coordinator",
-        photo: "/images/team/puran.webp",
-        social: {
-          instagram: "https://www.instagram.com/puran_joshi_07",
-        },
-      },
-      {
-        name: "Himanshu",
-        contact: "+91 9416490501",
-        role: "Badminton Coordinator",
-        photo: "/images/team/himanshu.webp",
-        social: {
-          instagram: "https://www.instagram.com/h.i.m.a.n.s.h.u.1_",
-        },
-      },
-    ],
-
-    "PCr Coordinators": [
-      {
-        name: "Urvashi",
-        contact: "+91 9256564975",
-        role: "PCr Coordinator",
-        photo: "/images/team/urvashi.webp",
-        social: {
-          instagram: "https://instagram.com/urvashisharma0594",
-        },
-      },
-      {
-        name: "Chetna Bhardwaj",
-        contact: "+91 9868485470",
-        role: "PCr Coordinator",
-        photo: "/images/team/chetna.webp",
-        social: {
-          instagram: "https://instagram.com/sneha_bhardwaaj",
-        },
-      },
-      {
-        name: "Shashi",
-        contact: "+91 8708566355",
-        role: "PCr Coordinator",
-        photo: "/images/team/shashi.webp",
-        social: {
-          instagram: "https://www.instagram.com/kalkal.shashi",
-        },
-      },
-      {
-        name: "Praveen Sharma",
-        contact: "+91 7231841289",
-        role: "PCr Coordinator",
-        photo: "/images/team/praveen.webp",
-        social: {
-          instagram: "https://www.instagram.com/ipraveensharma_",
-        },
-      },
-      {
-        name: "Nishant Kumar Bainara",
-        contact: "+91 7240662081",
-        role: "PCr Coordinator",
-        photo: "/images/team/nishant.webp",
-        social: {
-          instagram: "https://www.instagram.com/ms_nishant7781",
-        },
-      },
-      {
-        name: "Sudhandhu",
-        contact: "+91 9354630669",
-        role: "PCr Coordinator",
-        photo: "/images/team/sudhanshu.webp",
-        social: {
-          instagram: "https://www.instagram.com/sudh__m",
-        },
-      },
-      {
-        name: "Apoorva Bissa",
-        contact: "+91 7878363370",
-        role: "PCr Coordinator",
-        photo: "/images/team/apoorva.webp",
-        social: {
-          instagram: "https://www.instagram.com/bissa_apoorva",
-        },
-      },
-    ],
-
-    "Event Manager": [
+    "Event Managers": [
       {
         name: "Lakshy Chauhan",
         contact: "+91 6350142804",
@@ -230,6 +92,102 @@ const OurTeam = () => {
       },
     ],
 
+    "PCr Coordinators": [
+      {
+        name: "Chetna Bhardwaj",
+        contact: "+91 9868485470",
+        role: "PCr Coordinator",
+        photo: "/images/team/chetna.webp",
+        social: {
+          instagram: "https://instagram.com/sneha_bhardwaaj",
+        },
+      },
+      {
+        name: "Urvashi",
+        contact: "+91 9256564975",
+        role: "PCr Coordinator",
+        photo: "/images/team/urvashi.webp",
+        social: {
+          instagram: "https://instagram.com/urvashisharma0594",
+        },
+      },
+      {
+        name: "Praveen Sharma",
+        contact: "+91 7231841289",
+        role: "PCr Coordinator",
+        photo: "/images/team/praveen.webp",
+        social: {
+          instagram: "https://www.instagram.com/ipraveensharma_",
+        },
+      },
+    ],
+
+    "Sports Coordinators": [
+      {
+        name: "Aditya Bhomia",
+        contact: "+91 7023043828",
+        role: "Cricket Coordinator",
+        photo: "/images/team/aditya.webp",
+        social: {
+          instagram: "https://www.instagram.com/bhomia_aditya_09",
+        },
+      },
+      {
+        name: "Karan Jangir",
+        contact: "+91 7425050602",
+        role: "Football Coordinator",
+        photo: "/images/team/karan_jangir.webp",
+        social: {
+          instagram: "https://www.instagram.com/sircuit2.o",
+        },
+      },
+      {
+        name: "Puran",
+        contact: "+91 8290848992",
+        role: "Basketball Coordinator",
+        photo: "/images/team/puran.webp",
+        social: {
+          instagram: "https://www.instagram.com/puran_joshi_07",
+        },
+      },
+      {
+        name: "Amit Maan",
+        contact: "+91 9358335291",
+        role: "Volleyball Coordinator",
+        photo: "/images/team/amit.webp",
+        social: {
+          instagram: "https://www.instagram.com/maan_amit_007",
+        },
+      },
+      {
+        name: "Rohit Godara",
+        contact: "+91 8824958885",
+        role: "Kabaddi Coordinator",
+        photo: "/images/team/rohit.webp",
+        social: {
+          instagram: "https://www.instagram.com/rohitgodara345",
+        },
+      },
+      {
+        name: "Himanshu",
+        contact: "+91 9416490501",
+        role: "Badminton Coordinator",
+        photo: "/images/team/himanshu.webp",
+        social: {
+          instagram: "https://www.instagram.com/h.i.m.a.n.s.h.u.1_",
+        },
+      },
+      {
+        name: "Parveen Yadav",
+        contact: "+91 9518457402",
+        role: "E-Sports Coordinator",
+        photo: "/images/team/parveen.webp",
+        social: {
+          instagram: "https://www.instagram.com/parveen__yadv",
+        },
+      },
+    ],
+
     "Web Designer & Developers": [
       {
         name: "Divya Raghav",
@@ -253,7 +211,7 @@ const OurTeam = () => {
       {
         name: "Sumit Singh Rathore",
         role: "Web Designer & Developer",
-        photo: "https://github.com/developer-sumit.webp",
+        photo: "https://github.com/developer-sumit.png",
         social: {
           instagram: "https://instagram.com/__sumit_banna",
           linkedin: "https://linkedin.com/in/sumit-singh-rathore",

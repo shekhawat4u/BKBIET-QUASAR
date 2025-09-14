@@ -346,7 +346,7 @@ const AboutUs = () => {
                   REGISTER NOW
                 </a>
                 <a
-                  href="mailto:quasar@BKBIET Pilani.ac.in"
+                  href="mailto:quasar@bkbiet.ac.in"
                   className="relative inline-block px-8 py-4 overflow-hidden group"
                 >
                   <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-r from-[#e7d393] to-[#d4a853] group-hover:opacity-100"></span>
