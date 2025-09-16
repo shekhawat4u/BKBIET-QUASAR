@@ -13,6 +13,15 @@ const OurTeam = () => {
         },
       },
       {
+        name: "Nitin Jangir",
+        contact: "+91 9414279109",
+        role: "Organizer",
+        photo: "/images/team/nitin.webp",
+        social: {
+          instagram: "https://www.instagram.com/n_jangir_15",
+        },
+      },
+      {
         name: "Yash Jangid",
         contact: "+91 9351444977",
         role: "Organizer",
@@ -28,15 +37,6 @@ const OurTeam = () => {
         photo: "/images/team/aman.webp",
         social: {
           instagram: "https://www.instagram.com/amandeg1",
-        },
-      },
-      {
-        name: "Nitin Jangir",
-        contact: "+91 9414279109",
-        role: "Organizer",
-        photo: "/images/team/nitin.webp",
-        social: {
-          instagram: "https://www.instagram.com/n_jangir_15",
         },
       },
     ],
