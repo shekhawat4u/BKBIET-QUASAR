@@ -43,18 +43,18 @@ const OurTeam = () => {
 
     "Sports Officers": [
       {
-        name: "Parveen Yadav",
-        contact: "+91 9518457402",
-        role: "Sports Officers",
-        photo: "/images/team/parveen.webp",
+        name: "Nitin",
+        contact: "+91 8619627761",
+        role: "Officer",
+        photo: "/images/team/nitin2.webp",
         social: {
-          instagram: "https://www.instagram.com/parveen__yadv",
+          instagram: "https://www.instagram.com/nitinbalwada_18",
         },
       },
       {
         name: "Amit Maan",
         contact: "+91 9358335291",
-        role: "Sports Officers",
+        role: "Officer",
         photo: "/images/team/amit.webp",
         social: {
           instagram: "https://www.instagram.com/maan_amit_007",
@@ -63,7 +63,7 @@ const OurTeam = () => {
       {
         name: "Nishant Kumar Bainara",
         contact: "+91 7240662081",
-        role: "Sports Officer",
+        role: "Officer",
         photo: "/images/team/nishant.webp",
         social: {
           instagram: "https://www.instagram.com/ms_nishant7781",
@@ -82,12 +82,12 @@ const OurTeam = () => {
         },
       },
       {
-        name: "Nitin",
-        contact: "+91 8619627761",
+        name: "Parveen Yadav",
+        contact: "+91 9518457402",
         role: "Event Manager",
-        photo: "/images/team/nitin2.webp",
+        photo: "/images/team/parveen.webp",
         social: {
-          instagram: "https://www.instagram.com/nitinbalwada_18",
+          instagram: "https://www.instagram.com/parveen__yadv",
         },
       },
       {
@@ -127,6 +127,15 @@ const OurTeam = () => {
         photo: "/images/team/chetna.webp",
         social: {
           instagram: "https://instagram.com/sneha_bhardwaaj",
+        },
+      },
+      {
+        name: "Shashi",
+        contact: "+91 8708566355",
+        role: "PCr Coordinator",
+        photo: "/images/team/shashi.webp",
+        social: {
+          instagram: "https://www.instagram.com/kalkal.shashi",
         },
       },
       {
