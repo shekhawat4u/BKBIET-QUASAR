@@ -89,27 +89,6 @@ const femaleSportsLists = [
   },
 ];
 
-const featureLists = [
-  "Perfectly balanced blends",
-  "Garnished to perfection",
-  "Ice-cold every time",
-  "Expertly shaken & stirred",
-];
-
-const goodLists = [
-  "Handpicked ingredients",
-  "Signature techniques",
-  "Bartending artistry in action",
-  "Freshly muddled flavors",
-];
-
-const openingHours = [
-  { day: "Mon–Thu", time: "11:00am – 12am" },
-  { day: "Fri", time: "11:00am – 2am" },
-  { day: "Sat", time: "9:00am – 2am" },
-  { day: "Sun", time: "9:00am – 1am" },
-];
-
 const socials = [
   {
     name: "Instagram",
@@ -157,9 +136,6 @@ export {
   navLinks,
   maleSportsLists,
   femaleSportsLists,
-  featureLists,
-  goodLists,
-  openingHours,
   socials,
   allCocktails,
 };

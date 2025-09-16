@@ -44,17 +44,17 @@ const Archives = () => {
   return (
     <main className="min-h-screen bg-black text-white relative overflow-hidden">
       {/* Background decoration elements */}
-      <div className="absolute top-0 left-0 w-1/4 opacity-30 parallax-bg z-0">
+      <div className="absolute top-0 -left-1/4 max-md:top-[300px] max-md:w-[300px] w-1/2 opacity-30 parallax-bg z-0">
         <img
-          src="/images/assets/hero-left-leaf.webp"
-          alt="Decorative leaf"
+          src="/images/assets/ice-dragon.webp"
+          alt="ice-dragon"
           className="w-full"
         />
       </div>
-      <div className="absolute top-0 right-0 w-1/4 opacity-30 parallax-bg z-0">
+      <div className="absolute top-0 -right-1/4 max-md:top-[300px] max-md:w-[300px] w-1/2 opacity-30 parallax-bg z-0">
         <img
-          src="/images/assets/hero-right-leaf.webp"
-          alt="Decorative leaf"
+          src="/images/assets/fire-dragon.webp"
+          alt="fire-dragon"
           className="w-full"
         />
       </div>

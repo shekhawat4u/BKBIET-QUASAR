@@ -4,26 +4,62 @@ const OurTeam = () => {
   const teamData = {
     Organizers: [
       {
-        name: "Nitin Jangir",
-        contact: "+91 9414279109",
-        role: "Convenor",
-        photo: "/images/team/nitin.webp",
-        social: {
-          instagram: "https://www.instagram.com/n_jangir_15",
-        },
-      },
-      {
         name: "Yashashvi Jangid",
         contact: "+91 9950050535",
-        role: "Convenor",
+        role: "Organizer",
         photo: "/images/team/yashashvi.webp",
         social: {
           instagram: "https://www.instagram.com/yashashvie",
         },
       },
+      {
+        name: "Yash Jangid",
+        contact: "+91 9351444977",
+        role: "Organizer",
+        photo: "/images/team/yash.webp",
+        social: {
+          instagram: "https://www.instagram.com/jangidyash2782",
+        },
+      },
+      {
+        name: "Aman Deg",
+        contact: "+91 9314222024",
+        role: "Organizer",
+        photo: "/images/team/aman.webp",
+        social: {
+          instagram: "https://www.instagram.com/amandeg1",
+        },
+      },
+      {
+        name: "Nitin Jangir",
+        contact: "+91 9414279109",
+        role: "Organizer",
+        photo: "/images/team/nitin.webp",
+        social: {
+          instagram: "https://www.instagram.com/n_jangir_15",
+        },
+      },
     ],
 
     "Sports Officers": [
+      {
+        name: "Parveen Yadav",
+        contact: "+91 9518457402",
+        role: "Sports Officers",
+        photo: "/images/team/parveen.webp",
+        social: {
+          instagram: "https://www.instagram.com/parveen__yadv",
+        },
+      },
+      {
+        name: "Amit Maan",
+        contact: "+91 9358335291",
+        role: "Sports Officers",
+        photo: "/images/team/amit.webp",
+        social: {
+          instagram: "https://www.instagram.com/maan_amit_007",
+        },
+      },
       {
         name: "Nishant Kumar Bainara",
         contact: "+91 7240662081",
@@ -31,24 +67,6 @@ const OurTeam = () => {
         photo: "/images/team/nishant.webp",
         social: {
           instagram: "https://www.instagram.com/ms_nishant7781",
-        },
-      },
-      {
-        name: "Aman Deg",
-        contact: "+91 9314222024",
-        role: "Sports Officer",
-        photo: "/images/team/aman.webp",
-        social: {
-          instagram: "https://www.instagram.com/amandeg1",
-        },
-      },
-      {
-        name: "Yash Jangid",
-        contact: "+91 9351444977",
-        role: "Sports Officer",
-        photo: "/images/team/yash.webp",
-        social: {
-          instagram: "https://www.instagram.com/jangidyash2782",
         },
       },
     ],
@@ -94,6 +112,15 @@ const OurTeam = () => {
 
     "PCr Coordinators": [
       {
+        name: "Urvashi",
+        contact: "+91 9256564975",
+        role: "PCr Coordinator",
+        photo: "/images/team/urvashi.webp",
+        social: {
+          instagram: "https://instagram.com/urvashisharma0594",
+        },
+      },
+      {
         name: "Chetna Bhardwaj",
         contact: "+91 9868485470",
         role: "PCr Coordinator",
@@ -103,12 +130,12 @@ const OurTeam = () => {
         },
       },
       {
-        name: "Urvashi",
-        contact: "+91 9256564975",
+        name: "Shauryavardhan Singh Shekhawat",
+        contact: "+91 9216853329",
         role: "PCr Coordinator",
-        photo: "/images/team/urvashi.webp",
+        photo: "/images/team/shauryavardhan.webp",
         social: {
-          instagram: "https://instagram.com/urvashisharma0594",
+          instagram: "https://www.instagram.com/the_shauryavardhansingh",
         },
       },
       {
@@ -151,15 +178,6 @@ const OurTeam = () => {
         },
       },
       {
-        name: "Amit Maan",
-        contact: "+91 9358335291",
-        role: "Volleyball Coordinator",
-        photo: "/images/team/amit.webp",
-        social: {
-          instagram: "https://www.instagram.com/maan_amit_007",
-        },
-      },
-      {
         name: "Rohit Godara",
         contact: "+91 8824958885",
         role: "Kabaddi Coordinator",
@@ -175,15 +193,6 @@ const OurTeam = () => {
         photo: "/images/team/himanshu.webp",
         social: {
           instagram: "https://www.instagram.com/h.i.m.a.n.s.h.u.1_",
-        },
-      },
-      {
-        name: "Parveen Yadav",
-        contact: "+91 9518457402",
-        role: "E-Sports Coordinator",
-        photo: "/images/team/parveen.webp",
-        social: {
-          instagram: "https://www.instagram.com/parveen__yadv",
         },
       },
     ],
@@ -238,17 +247,17 @@ const OurTeam = () => {
   return (
     <main className="min-h-screen bg-black text-white relative overflow-hidden">
       {/* Background decoration elements */}
-      <div className="absolute top-0 left-0 w-1/4 opacity-30 parallax-bg z-0">
+      <div className="absolute top-0 -left-1/4 max-md:top-[300px] max-md:w-[300px] w-1/2 opacity-30 parallax-bg z-0">
         <img
-          src="/images/assets/hero-left-leaf.webp"
-          alt="Decorative leaf"
+          src="/images/assets/ice-dragon.webp"
+          alt="ice-dragon"
           className="w-full"
         />
       </div>
-      <div className="absolute top-0 right-0 w-1/4 opacity-30 parallax-bg z-0">
+      <div className="absolute top-0 -right-1/4 max-md:top-[300px] max-md:w-[300px] w-1/2 opacity-30 parallax-bg z-0">
         <img
-          src="/images/assets/hero-right-leaf.webp"
-          alt="Decorative leaf"
+          src="/images/assets/fire-dragon.webp"
+          alt="fire-dragon"
           className="w-full"
         />
       </div>
