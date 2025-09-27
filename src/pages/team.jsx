@@ -252,26 +252,17 @@ const OurTeam = () => {
       {
         name: "Kartik",
         role: "Cinematics Team",
-        photo: "/images/team/divya.webp",
-        social: {
-          linkedin: "https://linkedin.com/in/divyaraghav",
-        },
+        photo: "/images/team/kartik.jpg"
       },
       {
         name: "Arun",
         role: "Cinematics Team",
-        photo: "/images/team/harsh.webp",
-        social: {
-          instagram: "https://instagram.com/_shekhawat4u_"
-        },
+        photo: "/images/team/arun.jpg"
       },
       {
         name: "Madhav",
         role: "Cinematics Team",
-        photo: "https://github.com/developer-sumit.png",
-        social: {
-          instagram: "https://instagram.com/__sumit_banna"
-        },
+        photo: "/images/team/madhav.jpg"
       },
     ],
   };
