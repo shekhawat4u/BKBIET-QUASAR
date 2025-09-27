@@ -228,6 +228,58 @@ const OurTeam = () => {
         },
       },
     ],
+      "Sponsor Team": [
+      {
+        name: "Naman Deg",
+        role: "Sponsor Team",
+        photo: "/images/team/divya.webp",
+        social: {
+          linkedin: "https://linkedin.com/in/divyaraghav"
+        },
+      },
+      {
+        name: "Harshvardhan",
+        role: "Sponsor Team",
+        photo: "/images/team/harsh.webp",
+        social: {
+          instagram: "https://instagram.com/_shekhawat4u_"
+        },
+      },
+      {
+        name: "Bhavya",
+        role: "Sponsor Team",
+        photo: "https://github.com/developer-sumit.png",
+        social: {
+          instagram: "https://instagram.com/__sumit_banna"
+        },
+      },
+    ],
+      "Cinematics Team": [
+      {
+        name: "Kartik",
+        role: "Cinematics Team",
+        photo: "/images/team/divya.webp",
+        social: {
+          linkedin: "https://linkedin.com/in/divyaraghav",
+        },
+      },
+      {
+        name: "Arun",
+        role: "Cinematics Team",
+        photo: "/images/team/harsh.webp",
+        social: {
+          instagram: "https://instagram.com/_shekhawat4u_"
+        },
+      },
+      {
+        name: "Madhav",
+        role: "Cinematics Team",
+        photo: "https://github.com/developer-sumit.png",
+        social: {
+          instagram: "https://instagram.com/__sumit_banna"
+        },
+      },
+    ],
   };
 
   useEffect(() => {
