@@ -232,25 +232,19 @@ const OurTeam = () => {
       {
         name: "Naman Deg",
         role: "Sponsors Team",
-        photo: "/images/team/naman.jpeg",
-        social: {
-          linkedin: "https://linkedin.com/in/divyaraghav"
-        },
+        photo: "/images/team/naman.jpeg"
       },
       {
         name: "Harshvardhan",
         role: "Sponsors Team",
-        photo: "/images/team/harshvardhan.jpeg",
-        social: {
-          instagram: "https://instagram.com/_shekhawat4u_"
-        },
+        photo: "/images/team/harshvardhan.jpeg"
       },
       {
         name: "Bhavya",
         role: "Sponsors Team",
         photo: "/images/team/bhavya.jpeg",
         social: {
-          instagram: "https://instagram.com/__sumit_banna"
+          instagram: "https://www.instagram.com/bhavyajhajharia"
         },
       },
     ],
