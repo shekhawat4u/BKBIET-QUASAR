@@ -228,27 +228,27 @@ const OurTeam = () => {
         },
       },
     ],
-      "Sponsor Team": [
+      "Sponsors Team": [
       {
         name: "Naman Deg",
-        role: "Sponsor Team",
-        photo: "/images/team/divya.webp",
+        role: "Sponsors Team",
+        photo: "/images/team/naman.jpeg",
         social: {
           linkedin: "https://linkedin.com/in/divyaraghav"
         },
       },
       {
         name: "Harshvardhan",
-        role: "Sponsor Team",
-        photo: "/images/team/harsh.webp",
+        role: "Sponsors Team",
+        photo: "/images/team/harshvardhan.jpeg",
         social: {
           instagram: "https://instagram.com/_shekhawat4u_"
         },
       },
       {
         name: "Bhavya",
-        role: "Sponsor Team",
-        photo: "https://github.com/developer-sumit.png",
+        role: "Sponsors Team",
+        photo: "/images/team/bhavya.jpeg",
         social: {
           instagram: "https://instagram.com/__sumit_banna"
         },
