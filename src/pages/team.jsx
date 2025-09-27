@@ -553,17 +553,6 @@ const OurTeam = () => {
         `}</style>
       </section>
 
-      {/* Bottom decoration */}
-      <div className="absolute bottom-0 left-0 w-full opacity-40 z-0">
-        <div className="flex justify-between items-end">
-          <img
-            src="/images/footer-left-leaf.webp"
-            alt="Decorative element"
-            className="w-1/3 md:w-1/4 opacity-70"
-          />
-        </div>
-      </div>
-
       {/* Noise overlay */}
       <div className="fixed inset-0 z-[-1] opacity-[0.04] pointer-events-none mix-blend-overlay">
         <img
