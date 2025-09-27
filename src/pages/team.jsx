@@ -130,15 +130,6 @@ const OurTeam = () => {
         },
       },
       {
-        name: "Shashi",
-        contact: "+91 8708566355",
-        role: "PCr Coordinator",
-        photo: "/images/team/shashi.webp",
-        social: {
-          instagram: "https://www.instagram.com/kalkal.shashi",
-        },
-      },
-      {
         name: "Shauryavardhan Singh Shekhawat",
         contact: "+91 9216853329",
         role: "PCr Coordinator",
